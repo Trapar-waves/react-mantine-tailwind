@@ -1,0 +1,39 @@
+{
+  "name": "@trapar-waves/react-mantine-tailwind",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@mantine/core": "^7.14.3",
+    "@mantine/hooks": "^7.14.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.0.0",
+    "@iconify/json": "^2.2.281",
+    "@iconify/tailwind": "^1.2.0",
+    "@rsbuild/core": "^1.1.9",
+    "@rsbuild/plugin-react": "^1.1.0",
+    "@tailwindcss/postcss": "^4.0.3",
+    "@types/postcss-import": "^14.0.3",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.16.0",
+    "postcss-import": "^16.1.0",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "tailwind-preset-mantine": "2.0.5",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.2"
+  }
+}

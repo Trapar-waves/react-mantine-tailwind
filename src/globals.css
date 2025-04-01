@@ -1,0 +1,3 @@
+@import "tailwind-preset-mantine";
+
+@plugin "./iconify.ts"
