@@ -2,6 +2,25 @@
   "name": "@trapar-waves/react-mantine-tailwind",
   "type": "module",
   "version": "1.0.2",
+  "author": {
+    "email": "admin@rikka.cc",
+    "name": "Rikka",
+    "url": "https://github.com/Muromi-Rikka"
+  },
+  "homepage": "https://github.com/Trapar-waves/react-mantine-tailwind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trapar-waves/react-mantine-tailwind.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Trapar-waves/react-mantine-tailwind/issues"
+  },
+  "keywords": [
+    "react",
+    "tailwind",
+    "mantine",
+    "rsbuild"
+  ],
   "publishConfig": {
     "access": "public"
   },
