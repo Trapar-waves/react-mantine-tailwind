@@ -2,21 +2,22 @@
 
 ![npm version](https://img.shields.io/npm/v/@trapar-waves/react-mantine-tailwind)
 ![npm dm](https://img.shields.io/npm/dm/@trapar-waves/react-mantine-tailwind)
-![License](https://img.shields.io/badge/license-MIT-green)
+![License](https://img.shields.io/badge/license-ISC-green)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-mantine-tailwind)
 
-> A React project utilizing Mantine and Tailwind CSS for building modern, responsive user interfaces.
+> A project combining React, Mantine UI, and Tailwind CSS for building modern web applications.
 
 ## ✨ Features
 
-- Modern UI Framework: Built using React (v19.x) for a component-driven architecture and rich interactivity.
-- Rich Component Library: Integrates with Mantine (`@mantine/core` and `@mantine/hooks`) for pre-built, customizable UI components and hooks.
-- Utility-First Styling: Employs Tailwind CSS for flexible, rapid styling and theming.
-- Type Safety: Leverages TypeScript to improve code quality and reduce runtime errors.
-- Fast Development Workflow: Utilizes Rsbuild for quick server starts, optimized builds, and hot module replacement.
-- Responsive Design Support: Likely incorporates Tailwind’s responsive utilities alongside Mantine’s adaptive components for a seamless mobile-first experience.
-- Focus on Code Quality: Includes ESLint with Antfu’s configuration for consistent coding standards and error prevention.
-- Customizable Theming: Potentially offers theme customization via Mantine and Tailwind CSS presets, allowing developers to tailor the UI to their needs.
+* **Modern UI Framework:** Built using React (v19) for a component-driven, declarative interface.
+* **Rich Component Library:** Integrates with Mantine UI (`@mantine/core` and `@mantine/hooks`) providing pre-built UI elements and utility hooks.
+* **Utility-First Styling:** Employs Tailwind CSS along with `@tailwindcss/postcss`, enabling flexible and rapid styling while maintaining consistency.
+* **PostCSS Integration:** Leverages PostCSS plugins like `postcss-import`, `autoprefixer`, and `postcss-simple-vars` for advanced CSS processing.
+* **Type Safety:** Utilizes TypeScript (v5.8.x) to enhance code reliability and provide robust type checking during development.
+* **Fast Development Workflow:** Uses Rsbuild (`@rsbuild/core` and `@rsbuild/plugin-react`) for optimized builds and efficient development server performance.
+* **Icon Support:** Includes `@iconify/json` and `@iconify/tailwind` for scalable and customizable iconography.
+* **Consistent Design Language:** Combines `postcss-preset-mantine` and `tailwind-preset-mantine` for seamless integration between Mantine and Tailwind styles.
+* **Focus on Code Quality:** Includes ESLint with `@antfu/eslint-config` for linting and enforcing best practices in the codebase.
 
 ## 🚀 Getting Started
 
@@ -24,9 +25,9 @@ Follow these instructions to get the project running locally.
 
 ### Prerequisites
 
-- Ensure you have the following installed:
-    - Node.js (>= 18.x)
-    - Package manager (npm, yarn, or pnpm)
+* Ensure you have the following installed:
+    * Node.js (>= 18.x recommended)
+    * Package manager (npm, yarn, or pnpm)
     ```bash
     node -v
     npm -v # or yarn -v or pnpm -v
@@ -51,15 +52,13 @@ Follow these instructions to get the project running locally.
 
 ## 🛠️ Usage
 
-Explain how to run and use the project after installation.
-
 ### Available Scripts
 
 Common scripts available via `npm run <script>`, `yarn <script>`, or `pnpm <script>`:
 
-- `dev`: Starts the development server with Rsbuild and opens the app in the browser.
-- `build`: Creates a production-ready build of the application.
-- `preview`: Launches a local server to preview the production build.
+* `dev`: Starts the development server with hot module replacement (HMR).
+* `build`: Creates a production-ready build of the application.
+* `preview`: Launches a local server to preview the production build.
 
 Example:
 ```bash
@@ -77,12 +76,12 @@ npm run preview
 
 Key technologies used in this project include:
 
-- Framework/Library: React (v19.x)
-- UI Toolkit/Styling: Mantine (`@mantine/core`, `@mantine/hooks`) and Tailwind CSS
-- Build Tool: Rsbuild
-- Language: TypeScript
-- Linting: ESLint with Antfu’s configuration
-- PostCSS Plugins: Autoprefixer, PostCSS Preset Mantine, and Tailwind CSS integration
+* **Framework/Library:** React (v19)
+* **UI Toolkit/Styling:** Mantine UI (`@mantine/core`), Tailwind CSS (`tailwindcss`)
+* **Build Tool:** Rsbuild (`@rsbuild/core`)
+* **Language:** TypeScript (v5.8.x)
+* **CSS Processing:** PostCSS with plugins like `autoprefixer` and `postcss-simple-vars`
+* **Linting:** ESLint with `@antfu/eslint-config`
 
 See the [package.json](package.json) for a full list of dependencies.
 
@@ -92,16 +91,15 @@ Contributions are welcome!
 
 ## 📄 License
 
-Distributed under the **MIT** License. See `LICENSE` file for more information.
+Distributed under the **ISC** License. See `LICENSE` file for more information.
 
 ## 👤 Author
 
-- **Rikka**
-- Email: [admin@rikka.cc](mailto:admin@rikka.cc)
-- GitHub: [@Muromi-Rikka](https://github.com/Muromi-Rikka)
+* **Rikka** (admin@rikka.cc)
+* **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
 
 ## 🔗 Links
 
-- Repository: [GitHub Repository](https://github.com/Trapar-waves/react-mantine-tailwind)
-- Homepage: [Project Homepage](https://github.com/Trapar-waves/react-mantine-tailwind)
-- Issues: [Bug Tracker](https://github.com/Trapar-waves/react-mantine-tailwind/issues)
+* **Repository:** [https://github.com/Trapar-waves/react-mantine-tailwind](https://github.com/Trapar-waves/react-mantine-tailwind)
+* **Homepage:** [https://github.com/Trapar-waves/react-mantine-tailwind](https://github.com/Trapar-waves/react-mantine-tailwind)
+* **Issues:** [Bug Tracker](https://github.com/Trapar-waves/react-mantine-tailwind/issues)
