@@ -41,7 +41,7 @@
     "@iconify/tailwind": "^1.2.0",
     "@rsbuild/core": "^1.3.6",
     "@rsbuild/plugin-react": "^1.2.0",
-    "@tailwindcss/postcss": "^4.1.3",
+    "@tailwindcss/postcss": "^4.1.4",
     "@types/postcss-import": "^14.0.3",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
@@ -51,7 +51,7 @@
     "postcss-preset-mantine": "^1.17.0",
     "postcss-simple-vars": "^7.0.1",
     "tailwind-preset-mantine": "2.0.5",
-    "tailwindcss": "^4.1.3",
+    "tailwindcss": "^4.1.4",
     "typescript": "^5.8.3"
   }
 }
