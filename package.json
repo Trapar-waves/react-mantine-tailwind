@@ -50,7 +50,7 @@
     "postcss-import": "^16.1.0",
     "postcss-preset-mantine": "^1.17.0",
     "postcss-simple-vars": "^7.0.1",
-    "tailwind-preset-mantine": "2.0.5",
+    "tailwind-preset-mantine": "2.0.6",
     "tailwindcss": "^4.1.4",
     "typescript": "^5.8.3"
   }
