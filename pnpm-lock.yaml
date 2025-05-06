@@ -64,8 +64,8 @@ importers:
         specifier: ^7.0.1
         version: 7.0.1(postcss@8.5.3)
       tailwind-preset-mantine:
-        specifier: 2.0.6
-        version: 2.0.6(@mantine/core@8.0.0(@mantine/hooks@8.0.0(react@19.1.0))(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(tailwindcss@4.1.5)
+        specifier: 2.1.0
+        version: 2.1.0(@mantine/core@8.0.0(@mantine/hooks@8.0.0(react@19.1.0))(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(tailwindcss@4.1.5)
       tailwindcss:
         specifier: ^4.1.5
         version: 4.1.5
@@ -2348,11 +2348,11 @@ packages:
   tabbable@6.2.0:
     resolution: {integrity: sha512-Cat63mxsVJlzYvN51JmVXIgNoUokrIaT2zLclCXjRd8boZ0004U4KCs/sToJ75C6sdlByWxpYnb5Boif1VSFew==}
 
-  tailwind-preset-mantine@2.0.6:
-    resolution: {integrity: sha512-3WKM3upH1nAbro7q2hr+wpvmzNwE+GbBLzM9AH2tN4yXeZpOJZleiViAb86gTn27qiqzNEZd2khr6qNPMINaRw==}
+  tailwind-preset-mantine@2.1.0:
+    resolution: {integrity: sha512-eNXZ5BIOjNxHKbFZhoGO1gMIgCWgYxMb4vMCmXal2/IzUYyECL7PwPzLLUTLLLwOoLPQ/gR+DoqREvCTsG+6dA==}
     hasBin: true
     peerDependencies:
-      '@mantine/core': ^7
+      '@mantine/core': ^7 || ^8
       tailwindcss: ^4
 
   tailwindcss@4.1.5:
@@ -2390,8 +2390,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  tsx@4.19.3:
-    resolution: {integrity: sha512-4H8vUNGNjQ4V2EOoGw005+c+dGuPSnhpPBPHBtsZdGZBk/iJb4kguGlPWaZTZ3q5nMtFOEsY0nRDlh9PJyd6SQ==}
+  tsx@4.19.4:
+    resolution: {integrity: sha512-gK5GVzDkJK1SI1zwHf32Mqxf2tSJkNx+eYcNly5+nHvWqXUJYUkWBQtKauoESz3ymezAI++ZwT855x5p5eop+Q==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -5012,11 +5012,11 @@ snapshots:
 
   tabbable@6.2.0: {}
 
-  tailwind-preset-mantine@2.0.6(@mantine/core@8.0.0(@mantine/hooks@8.0.0(react@19.1.0))(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(tailwindcss@4.1.5):
+  tailwind-preset-mantine@2.1.0(@mantine/core@8.0.0(@mantine/hooks@8.0.0(react@19.1.0))(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(tailwindcss@4.1.5):
     dependencies:
       '@mantine/core': 8.0.0(@mantine/hooks@8.0.0(react@19.1.0))(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       tailwindcss: 4.1.5
-      tsx: 4.19.3
+      tsx: 4.19.4
 
   tailwindcss@4.1.5: {}
 
@@ -5045,7 +5045,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsx@4.19.3:
+  tsx@4.19.4:
     dependencies:
       esbuild: 0.25.2
       get-tsconfig: 4.10.0
