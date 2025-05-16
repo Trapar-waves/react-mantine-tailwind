@@ -20,7 +20,8 @@
     "react",
     "tailwind",
     "mantine",
-    "rsbuild"
+    "rsbuild",
+    "typescript"
   ],
   "publishConfig": {
     "access": "public"
