@@ -5,6 +5,8 @@
 ![License](https://img.shields.io/badge/license-ISC-green)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/react-mantine-tailwind)
 
+[中文](README-CN.md) | [日本語](README-JP.md) | [Русский](README-RU.md)
+
 > A project combining React, Mantine UI, and Tailwind CSS for building modern web applications.
 
 ## ✨ Features
@@ -52,21 +54,48 @@ Follow these instructions to get the project running locally.
 
 ## 🛠️ Usage
 
+### Project Structure
+
+```
+├── .github/workflows/release.yml - CI/CD configuration
+├── public/ - Static assets
+├── src/
+│   ├── app.tsx - Main application component
+│   ├── index.tsx - Application entry point
+│   ├── globals.css - Global styles
+│   └── iconify.ts - Icon configuration
+├── rsbuild.config.ts - Build configuration
+└── tsconfig.json - TypeScript configuration
+```
+
 ### Available Scripts
 
 Common scripts available via `npm run <script>`, `yarn <script>`, or `pnpm <script>`:
 
 * `dev`: Starts the development server with hot module replacement (HMR).
+  ```bash
+  npm run dev
+  ```
 * `build`: Creates a production-ready build of the application.
+  ```bash
+  npm run build
+  ```
 * `preview`: Launches a local server to preview the production build.
+  ```bash
+  npm run preview
+  ```
+* `lint`: Runs ESLint to check for code quality issues.
+  ```bash
+  npm run lint
+  ```
 
 Example:
 ```bash
 # Start development server
-npm run dev 
+npm run dev
 
 # Create production build
-npm run build 
+npm run build
 
 # Preview production build
 npm run preview
@@ -82,16 +111,50 @@ Key technologies used in this project include:
 * **Language:** TypeScript (v5.8.x)
 * **CSS Processing:** PostCSS with plugins like `autoprefixer` and `postcss-simple-vars`
 * **Linting:** ESLint with `@antfu/eslint-config`
+* **State Management:** Zustand
+* **Routing:** Tanstack Router
+* **Data Fetching:** Tanstack Query (React Query)
+* **Table Component:** Tanstack Table
+
+* **Framework/Library:** React (v19)
+* **UI Toolkit/Styling:** Mantine UI (`@mantine/core`), Tailwind CSS (`tailwindcss`)
+* **Build Tool:** Rsbuild (`@rsbuild/core`)
+* **Language:** TypeScript (v5.8.x)
+* **CSS Processing:** PostCSS with plugins like `autoprefixer` and `postcss-simple-vars`
+* **Linting:** ESLint with `@antfu/eslint-config`
 
 See the [package.json](package.json) for a full list of dependencies.
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+Please make sure to update tests as appropriate and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## 📄 License
 
 Distributed under the **ISC** License. See `LICENSE` file for more information.
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+* **Dependency problems**: Try removing `node_modules` and reinstalling dependencies
+  ```bash
+  rm -rf node_modules && npm install
+  ```
+* **Build errors**: Ensure you're using Node.js v18 or higher
+* **Style conflicts**: Check for conflicting Tailwind and Mantine styles in `globals.css`
+
+## 📝 Changelog
+
+See the [CHANGELOG.md](CHANGELOG.md) file for details on version changes.
 
 ## 👤 Author
 
