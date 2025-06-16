@@ -89,6 +89,6 @@ pnpm install
 
 ## 🔗 Links
 
-- **仓库:** [https://github.com/react-mantine-tailwind/Trapar-waves](https://github.com/react-mantine-tailwind/Trapar-waves)
-- **主页:** [https://github.com/react-mantine-tailwind/Trapar-waves](https://github.com/react-mantine-tailwind/Trapar-waves)
-- **问题:** [https://github.com/react-mantine-tailwind/Trapar-waves/issues](https://github.com/react-mantine-tailwind/Trapar-waves/issues)
+- **仓库:** [https://github.com/Trapar-waves/react-mantine-tailwind](https://github.com/Trapar-waves/react-mantine-tailwind)
+- **主页:** [https://github.com/Trapar-waves/react-mantine-tailwind](https://github.com/Trapar-waves/react-mantine-tailwind)
+- **问题:** [https://github.com/Trapar-waves/react-mantine-tailwind/issues](https://github.com/Trapar-waves/react-mantine-tailwind/issues)
