@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@mantine/core':
-        specifier: ^8.1.0
-        version: 8.1.0(@mantine/hooks@8.1.0(react@19.1.0))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: ^8.1.1
+        version: 8.1.1(@mantine/hooks@8.1.1(react@19.1.0))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@mantine/hooks':
-        specifier: ^8.1.0
-        version: 8.1.0(react@19.1.0)
+        specifier: ^8.1.1
+        version: 8.1.1(react@19.1.0)
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -28,8 +28,8 @@ importers:
         specifier: ^1.52.2
         version: 1.52.2(eslint@9.29.0(jiti@2.4.2))(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3)
       '@iconify/json':
-        specifier: ^2.2.349
-        version: 2.2.349
+        specifier: ^2.2.350
+        version: 2.2.350
       '@iconify/tailwind':
         specifier: ^1.2.0
         version: 1.2.0
@@ -67,8 +67,8 @@ importers:
         specifier: ^0.4.20
         version: 0.4.20(eslint@9.29.0(jiti@2.4.2))
       postcss-import:
-        specifier: ^16.1.0
-        version: 16.1.0(postcss@8.5.3)
+        specifier: ^16.1.1
+        version: 16.1.1(postcss@8.5.3)
       postcss-preset-mantine:
         specifier: ^1.17.0
         version: 1.17.0(postcss@8.5.3)
@@ -77,7 +77,7 @@ importers:
         version: 7.0.1(postcss@8.5.3)
       tailwind-preset-mantine:
         specifier: 2.1.0
-        version: 2.1.0(@mantine/core@8.1.0(@mantine/hooks@8.1.0(react@19.1.0))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(tailwindcss@4.1.10)
+        version: 2.1.0(@mantine/core@8.1.1(@mantine/hooks@8.1.1(react@19.1.0))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(tailwindcss@4.1.10)
       tailwindcss:
         specifier: ^4.1.10
         version: 4.1.10
@@ -481,8 +481,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.349':
-    resolution: {integrity: sha512-0uWIZXsRomSeeFpAGTlOtt6q9U4wfh4ghS7uBaXytNcVrklAXTDRqrH5tjbMCfLUSBTCEoF70UzrMCg012U7/g==}
+  '@iconify/json@2.2.350':
+    resolution: {integrity: sha512-ywxrku6FYmZ8PsZ7ZzwaMNErqfP9CG5/g93QMDy9FqYGx0a/XgZ/q0PFpd0IrgjSiByJis5X4oJTKMpu91whGQ==}
 
   '@iconify/tailwind@1.2.0':
     resolution: {integrity: sha512-KgpIHWOTcRYw1XcoUqyNSrmYyfLLqZYu3AmP8zdfLk0F5TqRO8YerhlvlQmGfn7rJXgPeZN569xPAJnJ53zZxA==}
@@ -512,15 +512,15 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@mantine/core@8.1.0':
-    resolution: {integrity: sha512-wouPEE6nNjN52+taw23uca6OFsxXF7Slw4G5GT3CGCathDsN563fxuPNrc2uifvNsl/3bbiMFAAGAkVF07lc1A==}
+  '@mantine/core@8.1.1':
+    resolution: {integrity: sha512-fW5phaeraz5F2+rnu3cz9aqzyOdvK8ZKi3fWgfhURVt8lo7+oZOVmqsKnvnxw4clJvj/A51wLCmgN9uhlm0n2g==}
     peerDependencies:
-      '@mantine/hooks': 8.1.0
+      '@mantine/hooks': 8.1.1
       react: ^18.x || ^19.x
       react-dom: ^18.x || ^19.x
 
-  '@mantine/hooks@8.1.0':
-    resolution: {integrity: sha512-Ycg8g11zRFfG0ZOp3lIogZh8O1Y5+Jiteu1Ja0BeIeTPVLLXufUhhgyorNr7F4QTD18xKzB1nX8wZzKFD6czPQ==}
+  '@mantine/hooks@8.1.1':
+    resolution: {integrity: sha512-C+p9pPDPl/IMcVCN44XMa9MbuUOEJS3PG9Wklw9Z+ooJqkBnc7aXs3xTAjIsaUCinR9hMqT19cwiYb+W88leVg==}
     peerDependencies:
       react: ^18.x || ^19.x
 
@@ -1952,8 +1952,8 @@ packages:
   pnpm-workspace-yaml@0.3.1:
     resolution: {integrity: sha512-3nW5RLmREmZ8Pm8MbPsO2RM+99RRjYd25ynj3NV0cFsN7CcEl4sDFzgoFmSyduFwxFQ2Qbu3y2UdCh6HlyUOeA==}
 
-  postcss-import@16.1.0:
-    resolution: {integrity: sha512-7hsAZ4xGXl4MW+OKEWCnF6T5jqBw80/EE9aXg1r2yyn1RsVEU8EtKXbijEODa+rg7iih4bKf7vlvTGYR4CnPNg==}
+  postcss-import@16.1.1:
+    resolution: {integrity: sha512-2xVS1NCZAfjtVdvXiyegxzJ447GyqCeEI5V7ApgQVOWnros1p5lGNovJNapwPpMombyFBfqDwt7AD3n2l0KOfQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       postcss: ^8.0.0
@@ -2767,7 +2767,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@iconify/json@2.2.349':
+  '@iconify/json@2.2.350':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
@@ -2799,10 +2799,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@mantine/core@8.1.0(@mantine/hooks@8.1.0(react@19.1.0))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@mantine/core@8.1.1(@mantine/hooks@8.1.1(react@19.1.0))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@floating-ui/react': 0.26.28(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@mantine/hooks': 8.1.0(react@19.1.0)
+      '@mantine/hooks': 8.1.1(react@19.1.0)
       clsx: 2.1.1
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
@@ -2813,7 +2813,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@mantine/hooks@8.1.0(react@19.1.0)':
+  '@mantine/hooks@8.1.1(react@19.1.0)':
     dependencies:
       react: 19.1.0
 
@@ -4539,7 +4539,7 @@ snapshots:
     dependencies:
       yaml: 2.7.0
 
-  postcss-import@16.1.0(postcss@8.5.3):
+  postcss-import@16.1.1(postcss@8.5.3):
     dependencies:
       postcss: 8.5.3
       postcss-value-parser: 4.2.0
@@ -4754,9 +4754,9 @@ snapshots:
 
   tabbable@6.2.0: {}
 
-  tailwind-preset-mantine@2.1.0(@mantine/core@8.1.0(@mantine/hooks@8.1.0(react@19.1.0))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(tailwindcss@4.1.10):
+  tailwind-preset-mantine@2.1.0(@mantine/core@8.1.1(@mantine/hooks@8.1.1(react@19.1.0))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(tailwindcss@4.1.10):
     dependencies:
-      '@mantine/core': 8.1.0(@mantine/hooks@8.1.0(react@19.1.0))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@mantine/core': 8.1.1(@mantine/hooks@8.1.1(react@19.1.0))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       tailwindcss: 4.1.10
       tsx: 4.19.4
 
