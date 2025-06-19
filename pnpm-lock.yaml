@@ -73,7 +73,7 @@ importers:
         specifier: ^16.1.2
         version: 16.1.2
       postcss-import:
-        specifier: ^16.1.0
+        specifier: ^16.1.1
         version: 16.1.1(postcss@8.5.3)
       postcss-preset-mantine:
         specifier: ^1.17.0
