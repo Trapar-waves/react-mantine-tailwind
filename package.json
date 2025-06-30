@@ -59,7 +59,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "postcss-import": "^16.1.1",
-    "postcss-preset-mantine": "^1.17.0",
+    "postcss-preset-mantine": "^1.18.0",
     "postcss-simple-vars": "^7.0.1",
     "tailwind-preset-mantine": "2.1.0",
     "tailwindcss": "^4.1.11",
