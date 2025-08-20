@@ -9,7 +9,7 @@
 
 ---
 
-[English](../README.md) | [中文](/readme/README-CN.md) | [Русский язык](/readme/README-RU.md)
+[English](../README.md) | [中文](./README-CN.md) | [Русский язык](./README-RU.md)
 
 > React、Mantine UI、Tailwind CSSを組み合わせた現代的なWebアプリケーション構築用プロジェクトです。
 
@@ -19,18 +19,20 @@
 - **充実したコンポーネントライブラリ:** Mantine UI（`@mantine/core`と`@mantine/hooks`）を統合し、事前構築されたUI要素とユーティリティフックを提供します。
 - **ユーティリティファーストスタイリング:** Tailwind CSSと`@tailwindcss/postcss`を採用し、一貫性を維持しながら柔軟で迅速なスタイリングを可能にします。
 - **PostCSS統合:** `postcss-import`、`autoprefixer`、`postcss-simple-vars`などのPostCSSプラグインを活用し、高度なCSS処理を実現します。
-- **型安全性:** TypeScript (v5.8.x)を使用してコードの信頼性を向上させ、開発中の堅牢な型チェックを提供します。
+- **型安全性:** TypeScript (v5.9.x)を使用してコードの信頼性を向上させ、開発中の堅牢な型チェックを提供します。
 - **高速開発ワークフロー:** Rsbuild（`@rsbuild/core`と`@rsbuild/plugin-react`）を使用して最適化されたビルドと効率的な開発サーバーパフォーマンスを実現します。
 - **アイコンサポート:** `@iconify/json`と`@iconify/tailwind`を含み、スケーラブルでカスタマイズ可能なアイコンを提供します。
 - **一貫したデザイン言語:** `postcss-preset-mantine`と`tailwind-preset-mantine`を組み合わせて、MantineとTailwindスタイルのシームレスな統合を実現します。
 - **コード品質への注力:** ESLintと`@antfu/eslint-config`を含み、コードベースのリンティングとベストプラクティスの適用を実現します。
+- **Git Hooks:** Huskyと`lint-staged`を統合し、コミット時の自動コード品質チェックを実現します。
+- **自動リリース:** GitHub Actionsを使用して自動リリースと変更履歴の生成を実現します。
 
 ## 💻 技術スタック
 
 - **フレームワーク/ライブラリ:** React (v19)
 - **UIツールキット/スタイリング:** Mantine UI（`@mantine/core`）、Tailwind CSS（`tailwindcss`）
 - **ビルドツール:** Rsbuild（`@rsbuild/core`）
-- **言語:** TypeScript (v5.8.x)
+- **言語:** TypeScript (v5.9.x)
 - **CSS処理:** `autoprefixer`や`postcss-simple-vars`などのプラグインを備えたPostCSS
 - **リンティング:** `@antfu/eslint-config`を備えたESLint
 - **状態管理:** Zustand
@@ -38,7 +40,7 @@
 - **データフェッチング:** Tanstack Query (React Query)
 - **テーブルコンポーネント:** Tanstack Table
 
-依存関係の完全なリストについては[package.json](package.json)を参照してください。
+依存関係の完全なリストについては[package.json](../package.json)を参照してください。
 
 ## 🚀 始め方
 
@@ -72,6 +74,46 @@ yarn install
 pnpm install
 ```
 
+### 開発
+
+開発サーバーの起動:
+
+```bash
+npm run dev
+yarn dev
+pnpm dev
+```
+
+### ビルド
+
+本番用にプロジェクトをビルド:
+
+```bash
+npm run build
+yarn build
+pnpm build
+```
+
+### プレビュー
+
+ローカルで本番ビルドをプレビュー:
+
+```bash
+npm run preview
+yarn preview
+pnpm preview
+```
+
+### リンティング
+
+コードベースのリント:
+
+```bash
+npm run lint
+yarn lint
+pnpm lint
+```
+
 ## 🤝 コントリビューション
 
 貢献は歓迎され、非常に高く評価されています！貢献するには以下の手順に従ってください：
@@ -81,6 +123,12 @@ pnpm install
 3. 変更をコミットする（`git commit -m 'Add some amazing feature'`）
 4. ブランチにプッシュする（`git push origin feature/amazing-feature`）
 5. Pull Requestを開く
+
+プルリクエストを提出する前に、コードがプロジェクトのリントルールに準拠し、すべてのチェックに合格することを確認してください。
+
+## 📄 ライセンス
+
+このプロジェクトはMITライセンスの下でライセンスされています。詳細については[LICENSE](../LICENSE)ファイルを参照してください。
 
 ## 👤 Author
 
