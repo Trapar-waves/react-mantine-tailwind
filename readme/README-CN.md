@@ -9,7 +9,7 @@
 
 ---
 
-[English](../README.md) | [日本語](/readme/README-JP.md) | [Русский язык](/readme/README-RU.md)
+[English](../README.md) | [日本語](./README-JP.md) | [Русский язык](./README-RU.md)
 
 > 一个融合React、Mantine UI和Tailwind CSS的项目，用于构建现代化Web应用。
 
@@ -19,18 +19,20 @@
 - **丰富组件库:** 集成Mantine UI（`@mantine/core`和`@mantine/hooks`），提供预构建UI元素和实用钩子。
 - **工具优先样式:** 采用Tailwind CSS配合`@tailwindcss/postcss`，实现灵活快速的样式开发同时保持一致性。
 - **PostCSS集成:** 利用PostCSS插件如`postcss-import`、`autoprefixer`和`postcss-simple-vars`进行高级CSS处理。
-- **类型安全:** 使用TypeScript (v5.8.x)增强代码可靠性，在开发过程中提供强大的类型检查。
+- **类型安全:** 使用TypeScript (v5.9.x)增强代码可靠性，在开发过程中提供强大的类型检查。
 - **快速开发流程:** 使用Rsbuild（`@rsbuild/core`和`@rsbuild/plugin-react`）实现优化构建和高效开发服务器性能。
 - **图标支持:** 包含`@iconify/json`和`@iconify/tailwind`，提供可扩展和可定制的图标库。
 - **一致的设计语言:** 结合`postcss-preset-mantine`和`tailwind-preset-mantine`，实现Mantine和Tailwind样式的无缝集成。
 - **注重代码质量:** 包含ESLint和`@antfu/eslint-config`，用于代码检查和执行最佳实践。
+- **Git Hooks:** 集成Husky和`lint-staged`，在提交时自动进行代码质量检查。
+- **自动化发布:** 利用GitHub Actions进行自动化发布和变更日志生成。
 
 ## 💻 技术栈
 
 - **框架/库:** React (v19)
 - **UI工具包/样式:** Mantine UI（`@mantine/core`）、Tailwind CSS（`tailwindcss`）
 - **构建工具:** Rsbuild（`@rsbuild/core`）
-- **语言:** TypeScript (v5.8.x)
+- **语言:** TypeScript (v5.9.x)
 - **CSS处理:** PostCSS及插件如`autoprefixer`和`postcss-simple-vars`
 - **代码检查:** ESLint配合`@antfu/eslint-config`
 - **状态管理:** Zustand
@@ -38,7 +40,7 @@
 - **数据获取:** Tanstack Query (React Query)
 - **表格组件:** Tanstack Table
 
-完整依赖列表参见[package.json](package.json)。
+完整依赖列表参见[package.json](../package.json)。
 
 ## 🚀 开始使用
 
@@ -72,6 +74,46 @@ yarn install
 pnpm install
 ```
 
+### 开发
+
+启动开发服务器:
+
+```bash
+npm run dev
+yarn dev
+pnpm dev
+```
+
+### 构建
+
+为生产环境构建项目:
+
+```bash
+npm run build
+yarn build
+pnpm build
+```
+
+### 预览
+
+在本地预览生产构建:
+
+```bash
+npm run preview
+yarn preview
+pnpm preview
+```
+
+### 代码检查
+
+对代码库进行检查:
+
+```bash
+npm run lint
+yarn lint
+pnpm lint
+```
+
 ## 🤝 贡献指南
 
 欢迎贡献，非常感谢您的支持！请按照以下步骤进行贡献：
@@ -81,6 +123,12 @@ pnpm install
 3. 提交您的更改（`git commit -m 'Add some amazing feature'`）
 4. 推送到分支（`git push origin feature/amazing-feature`）
 5. 打开Pull Request
+
+请确保您的代码符合项目的检查规则，并在提交PR之前通过所有检查。
+
+## 📄 许可证
+
+该项目采用MIT许可证 - 详情请见[LICENSE](../LICENSE)文件。
 
 ## 👤 Author
 
