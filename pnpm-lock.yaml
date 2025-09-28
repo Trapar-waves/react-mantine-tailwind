@@ -28,8 +28,8 @@ importers:
         specifier: ^2.0.1
         version: 2.0.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2)
       '@iconify/json':
-        specifier: ^2.2.388
-        version: 2.2.388
+        specifier: ^2.2.389
+        version: 2.2.389
       '@iconify/tailwind':
         specifier: ^1.2.0
         version: 1.2.0
@@ -493,8 +493,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.388':
-    resolution: {integrity: sha512-sNwZo4oDovAA7IT1XHfJiEP4fLialEFYALrGVQAblbflkICEJFnK6rUK0sHhvkkX2HUTNTMywOX+LG9AGVN3Pw==}
+  '@iconify/json@2.2.389':
+    resolution: {integrity: sha512-xBe13oWDZ5OuyvIhFxqoAKvu90ctI62hJ2sG57NrsfefNo3ubOPvJ/PmX0yxQaMf49AgsdqWzcDvSKBTVN4f1g==}
 
   '@iconify/tailwind@1.2.0':
     resolution: {integrity: sha512-KgpIHWOTcRYw1XcoUqyNSrmYyfLLqZYu3AmP8zdfLk0F5TqRO8YerhlvlQmGfn7rJXgPeZN569xPAJnJ53zZxA==}
@@ -2945,7 +2945,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@iconify/json@2.2.388':
+  '@iconify/json@2.2.389':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
