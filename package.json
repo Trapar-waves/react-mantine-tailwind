@@ -64,6 +64,6 @@
     "postcss-simple-vars": "^7.0.1",
     "tailwind-preset-mantine": "3.0.0",
     "tailwindcss": "^4.1.13",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }
