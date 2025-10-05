@@ -28,8 +28,8 @@ importers:
         specifier: ^2.0.6
         version: 2.0.6(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.3)
       '@iconify/json':
-        specifier: ^2.2.391
-        version: 2.2.391
+        specifier: ^2.2.392
+        version: 2.2.392
       '@iconify/tailwind':
         specifier: ^1.2.0
         version: 1.2.0
@@ -591,8 +591,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.391':
-    resolution: {integrity: sha512-RQGiFsnxHvyn0bT5TZvI9XKI++Kto9kzXEBUOemNdci+r6qUVs/w7/20JcgCf3rv6fgtENHtj5Uf5S0ColSJ4A==}
+  '@iconify/json@2.2.392':
+    resolution: {integrity: sha512-WkkQIDpmgetgvIn1jso6XKY3S5Pf9L6QD1J2RNLeiF+jzdouyayoRm2LLxe4dmnp9i3Cbf8w7oRuaVlhwK8Xtg==}
 
   '@iconify/tailwind@1.2.0':
     resolution: {integrity: sha512-KgpIHWOTcRYw1XcoUqyNSrmYyfLLqZYu3AmP8zdfLk0F5TqRO8YerhlvlQmGfn7rJXgPeZN569xPAJnJ53zZxA==}
@@ -2147,9 +2147,6 @@ packages:
   path-parse@1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
 
-  pathe@1.1.2:
-    resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
-
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
 
@@ -3220,10 +3217,10 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@iconify/json@2.2.391':
+  '@iconify/json@2.2.392':
     dependencies:
       '@iconify/types': 2.0.0
-      pathe: 1.1.2
+      pathe: 2.0.3
 
   '@iconify/tailwind@1.2.0':
     dependencies:
@@ -3696,7 +3693,7 @@ snapshots:
 
   '@vue/compiler-core@3.5.13':
     dependencies:
-      '@babel/parser': 7.27.5
+      '@babel/parser': 7.28.4
       '@vue/shared': 3.5.13
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -3709,7 +3706,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.5.13':
     dependencies:
-      '@babel/parser': 7.27.5
+      '@babel/parser': 7.28.4
       '@vue/compiler-core': 3.5.13
       '@vue/compiler-dom': 3.5.13
       '@vue/compiler-ssr': 3.5.13
@@ -5088,8 +5085,6 @@ snapshots:
   path-key@3.1.1: {}
 
   path-parse@1.0.7: {}
-
-  pathe@1.1.2: {}
 
   pathe@2.0.3: {}
 
