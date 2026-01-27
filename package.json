@@ -38,8 +38,8 @@
   "dependencies": {
     "@mantine/core": "^8.3.13",
     "@mantine/hooks": "^8.3.13",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.2.0",
@@ -50,7 +50,7 @@
     "@rsbuild/plugin-react": "^1.4.3",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/postcss-import": "^14.0.3",
-    "@types/react": "^19.2.9",
+    "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.4.23",
     "eslint": "^9.39.2",
