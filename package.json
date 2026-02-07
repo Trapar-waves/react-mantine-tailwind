@@ -50,7 +50,7 @@
     "@rsbuild/plugin-react": "^1.4.5",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/postcss-import": "^14.0.3",
-    "@types/react": "^19.2.10",
+    "@types/react": "^19.2.13",
     "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.4.24",
     "eslint": "^9.39.2",
