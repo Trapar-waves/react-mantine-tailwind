@@ -52,7 +52,7 @@
     "@types/postcss-import": "^14.0.3",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "autoprefixer": "^10.4.24",
+    "autoprefixer": "^10.4.27",
     "eslint": "^10.0.2",
     "eslint-plugin-format": "^2.0.1",
     "eslint-plugin-react-hooks": "^7.0.1",
