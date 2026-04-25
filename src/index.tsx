@@ -1,5 +1,5 @@
 import { createTheme, DEFAULT_THEME, MantineProvider, mergeMantineTheme } from "@mantine/core";
-import React from "react";
+import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./app";
 
@@ -13,10 +13,10 @@ if (rootEl) {
     }),
   );
   root.render(
-    <React.StrictMode>
+    <StrictMode>
       <MantineProvider theme={theme}>
         <App />
       </MantineProvider>
-    </React.StrictMode>,
+    </StrictMode>,
   );
 }
