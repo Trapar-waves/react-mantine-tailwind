@@ -6,8 +6,10 @@ import tailwind from "@tailwindcss/postcss";
 import postcssImport from "postcss-import";
 import postcssPresetMantine from "postcss-preset-mantine";
 import postcssSimpleVars from "postcss-simple-vars";
+import TurboConsole from "unplugin-turbo-console/rspack";
 
 const enableRsdoctor = Boolean(process.env.RSDOCTOR);
+const enableTurboConsole = process.env.NODE_ENV === "development";
 
 export default defineConfig({
   performance: {
@@ -37,6 +39,7 @@ export default defineConfig({
     },
     rspack: {
       plugins: [
+        ...(enableTurboConsole ? [TurboConsole()] : []),
         ...(enableRsdoctor
           ? [
               new RsdoctorRspackPlugin({
