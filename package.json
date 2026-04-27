@@ -37,8 +37,8 @@
     "postinstall": "husky"
   },
   "dependencies": {
-    "@mantine/core": "^9.1.0",
-    "@mantine/hooks": "^9.1.0",
+    "@mantine/core": "^9.1.1",
+    "@mantine/hooks": "^9.1.1",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
