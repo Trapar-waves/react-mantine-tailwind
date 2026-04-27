@@ -48,7 +48,7 @@ const techStack: Array<{
     id: "rsbuild",
     label: "Rsbuild",
     hint: "@rsbuild/core · @rsbuild/plugin-react",
-    iconClass: "icon-[logos--webpack]",
+    iconClass: "icon-[material-icon-theme--rstack]",
   },
   {
     id: "postcss",
@@ -206,7 +206,7 @@ function App() {
               fw={600}
               c="dark.6"
             >
-              logos--webpack
+              material-icon-theme--rstack
             </Text>
             {" "}
             作示意；其余图标与 README、package.json 中依赖一致。
