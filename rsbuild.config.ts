@@ -1,11 +1,18 @@
+import process from "node:process";
 import { defineConfig } from "@rsbuild/core";
 import { pluginReact } from "@rsbuild/plugin-react";
+import { RsdoctorRspackPlugin } from "@rsdoctor/rspack-plugin";
 import tailwind from "@tailwindcss/postcss";
 import postcssImport from "postcss-import";
 import postcssPresetMantine from "postcss-preset-mantine";
 import postcssSimpleVars from "postcss-simple-vars";
 
+const enableRsdoctor = Boolean(process.env.RSDOCTOR);
+
 export default defineConfig({
+  performance: {
+    ...(enableRsdoctor ? { buildCache: false } : {}),
+  },
   server: {
     port: 5000,
   },
@@ -27,6 +34,22 @@ export default defineConfig({
           tailwind,
         ],
       },
+    },
+    rspack: {
+      plugins: [
+        ...(enableRsdoctor
+          ? [
+              new RsdoctorRspackPlugin({
+                output: {
+                  mode: "brief",
+                  options: {
+                    type: ["json"],
+                  },
+                },
+              }),
+            ]
+          : []),
+      ],
     },
   },
   plugins: [pluginReact()],
