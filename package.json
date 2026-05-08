@@ -50,7 +50,7 @@
     "@rsbuild/core": "^2.0.5",
     "@rsbuild/plugin-react": "^2.0.0",
     "@rsdoctor/rspack-plugin": "^1.5.9",
-    "@tailwindcss/postcss": "^4.2.4",
+    "@tailwindcss/postcss": "^4.3.0",
     "@types/postcss-import": "^14.0.3",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
@@ -66,7 +66,7 @@
     "postcss-preset-mantine": "^1.18.0",
     "postcss-simple-vars": "^7.0.1",
     "tailwind-preset-mantine": "4.0.3",
-    "tailwindcss": "^4.2.4",
+    "tailwindcss": "^4.3.0",
     "typescript": "^6.0.3",
     "unplugin-turbo-console": "^2.3.2"
   }
