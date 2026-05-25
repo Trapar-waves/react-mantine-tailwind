@@ -28,8 +28,8 @@ importers:
         specifier: ^5.8.4
         version: 5.8.4(eslint@10.4.0(jiti@2.6.1))(typescript@6.0.3)
       '@iconify/json':
-        specifier: ^2.2.477
-        version: 2.2.477
+        specifier: ^2.2.478
+        version: 2.2.478
       '@iconify/tailwind':
         specifier: ^1.2.0
         version: 1.2.0
@@ -596,8 +596,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.477':
-    resolution: {integrity: sha512-isVa2k45CaoJl2DEMbyOCwif7Ec8PIk97p6VENhSSPfZE19UPmbY72LLOICUchWkWYz9RqBy5duFE2aiuPfUvA==}
+  '@iconify/json@2.2.478':
+    resolution: {integrity: sha512-RlVueqKSFmAFWTCiuGjwFFJlZXjfrGgQI8QUvrY0OSXtTe0/LX3HaUAy3nDITpRCeihOyd/FhfXxgCbmIcbxQg==}
 
   '@iconify/tailwind@1.2.0':
     resolution: {integrity: sha512-KgpIHWOTcRYw1XcoUqyNSrmYyfLLqZYu3AmP8zdfLk0F5TqRO8YerhlvlQmGfn7rJXgPeZN569xPAJnJ53zZxA==}
@@ -3777,7 +3777,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@iconify/json@2.2.477':
+  '@iconify/json@2.2.478':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 2.0.3
@@ -4388,8 +4388,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.56.1(typescript@6.0.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.59.3(typescript@6.0.3)
-      '@typescript-eslint/types': 8.59.3
+      '@typescript-eslint/tsconfig-utils': 8.59.4(typescript@6.0.3)
+      '@typescript-eslint/types': 8.59.4
       debug: 4.4.3
       typescript: 6.0.3
     transitivePeerDependencies:
