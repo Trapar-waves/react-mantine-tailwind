@@ -76,7 +76,7 @@ importers:
         specifier: ^9.1.7
         version: 9.1.7
       lint-staged:
-        specifier: ^17.0.6
+        specifier: ^17.0.7
         version: 17.0.7
       postcss-import:
         specifier: ^16.1.1
