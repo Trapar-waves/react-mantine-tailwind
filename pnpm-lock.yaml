@@ -88,8 +88,8 @@ importers:
         specifier: ^7.0.1
         version: 7.0.1(postcss@8.5.15)
       tailwind-preset-mantine:
-        specifier: 4.0.3
-        version: 4.0.3(@mantine/core@9.4.0(@mantine/hooks@9.4.0(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(tailwindcss@4.3.1)
+        specifier: 4.1.0
+        version: 4.1.0(@mantine/core@9.4.0(@mantine/hooks@9.4.0(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(tailwindcss@4.3.1)
       tailwindcss:
         specifier: ^4.3.1
         version: 4.3.1
@@ -2950,8 +2950,8 @@ packages:
     resolution: {integrity: sha512-yEFYrVhod+hdNyx7g5Bnkkb0G6si8HJurOoOEgC8B/O0uXLHlaey/65KRv6cuWBNhBgHKAROVpc7QyYqE5gFng==}
     engines: {node: '>=20'}
 
-  tailwind-preset-mantine@4.0.3:
-    resolution: {integrity: sha512-VIP5J9YMyKVOf+Zb8ZpBkKSq+L0G5z2pPzQOEXDZyY+peV998EeGeysrcmDDxeCRS2eIYAwkQt7v5Wbz35nyzA==}
+  tailwind-preset-mantine@4.1.0:
+    resolution: {integrity: sha512-ikMEtNdRyjjArH96YAWz4Hdl9hJKAxLI5gIJRhGb0JFNhAKN69SynrQw1CRt2nhxCekyhR/tlbiMnfbeYJKpRg==}
     engines: {node: '>=22.15.0'}
     hasBin: true
     peerDependencies:
@@ -4308,8 +4308,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.61.1(typescript@6.0.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.61.1(typescript@6.0.3)
-      '@typescript-eslint/types': 8.61.1
+      '@typescript-eslint/tsconfig-utils': 8.62.0(typescript@6.0.3)
+      '@typescript-eslint/types': 8.62.0
       debug: 4.4.3
       typescript: 6.0.3
     transitivePeerDependencies:
@@ -6261,7 +6261,7 @@ snapshots:
 
   tagged-tag@1.0.0: {}
 
-  tailwind-preset-mantine@4.0.3(@mantine/core@9.4.0(@mantine/hooks@9.4.0(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(tailwindcss@4.3.1):
+  tailwind-preset-mantine@4.1.0(@mantine/core@9.4.0(@mantine/hooks@9.4.0(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(tailwindcss@4.3.1):
     dependencies:
       '@mantine/core': 9.4.0(@mantine/hooks@9.4.0(react@19.2.7))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       es-module-lexer: 2.1.0
