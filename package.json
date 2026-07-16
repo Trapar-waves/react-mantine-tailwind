@@ -68,6 +68,6 @@
     "tailwind-preset-mantine": "4.1.0",
     "tailwindcss": "^4.3.2",
     "typescript": "^6.0.3",
-    "unplugin-turbo-console": "^2.3.2"
+    "unplugin-turbo-console": "^2.3.3"
   }
 }

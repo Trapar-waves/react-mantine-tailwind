@@ -97,7 +97,7 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3
       unplugin-turbo-console:
-        specifier: ^2.3.2
+        specifier: ^2.3.3
         version: 2.3.3(@rspack/core@2.1.4(@swc/helpers@0.5.23))(esbuild@0.28.1)
 
 packages:
@@ -4328,8 +4328,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.63.0(typescript@6.0.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.63.0(typescript@6.0.3)
-      '@typescript-eslint/types': 8.63.0
+      '@typescript-eslint/tsconfig-utils': 8.64.0(typescript@6.0.3)
+      '@typescript-eslint/types': 8.64.0
       debug: 4.4.3
       typescript: 6.0.3
     transitivePeerDependencies:
