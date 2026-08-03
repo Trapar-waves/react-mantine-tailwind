@@ -34,7 +34,7 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0
       '@rsbuild/core':
-        specifier: ^2.1.8
+        specifier: ^2.1.9
         version: 2.1.9
       '@rsbuild/plugin-react':
         specifier: ^2.1.0
