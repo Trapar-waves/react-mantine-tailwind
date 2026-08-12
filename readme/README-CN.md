@@ -11,132 +11,100 @@
 
 [English](../README.md) | [日本語](./README-JP.md) | [Русский язык](./README-RU.md)
 
-> 一个融合React、Mantine UI和Tailwind CSS的项目，用于构建现代化Web应用。
+> 一个集成 React、Mantine UI 和 Tailwind CSS 的现代 Web 开发模板，支持 Rsbuild、TypeScript、ESLint（Antfu 配置）和 Iconify。
 
 ## ✨ 特性
 
-- **现代UI框架:** 基于React (v19)构建，采用组件驱动的声明式界面设计。
-- **丰富组件库:** 集成Mantine UI（`@mantine/core`和`@mantine/hooks`），提供预构建UI元素和实用钩子。
-- **工具优先样式:** 采用Tailwind CSS配合`@tailwindcss/postcss`，实现灵活快速的样式开发同时保持一致性。
-- **PostCSS集成:** 利用PostCSS插件如`postcss-import`、`autoprefixer`和`postcss-simple-vars`进行高级CSS处理。
-- **类型安全:** 使用TypeScript (v5.9.x)增强代码可靠性，在开发过程中提供强大的类型检查。
-- **快速开发流程:** 使用Rsbuild（`@rsbuild/core`和`@rsbuild/plugin-react`）实现优化构建和高效开发服务器性能。
-- **图标支持:** 包含`@iconify/json`和`@iconify/tailwind`，提供可扩展和可定制的图标库。
-- **一致的设计语言:** 结合`postcss-preset-mantine`和`tailwind-preset-mantine`，实现Mantine和Tailwind样式的无缝集成。
-- **注重代码质量:** 包含ESLint和`@antfu/eslint-config`，用于代码检查和执行最佳实践。
-- **Git Hooks:** 集成Husky和`lint-staged`，在提交时自动进行代码质量检查。
-- **自动化发布:** 利用GitHub Actions进行自动化发布和变更日志生成。
+- **现代 UI 框架：** 使用 React (v19) 构建，支持组件驱动的声明式接口。
+- **丰富组件库：** 集成 Mantine UI（`@mantine/core` 和 `@mantine/hooks`），提供预构建 UI 元素和实用钩子。
+- **实用优先样式：** 采用 Tailwind CSS 配合 `@tailwindcss/postcss`，实现灵活快速的样式开发，同时保持一致性。
+- **PostCSS 集成：** 利用 PostCSS 插件如 `postcss-import`、`autoprefixer` 和 `postcss-simple-vars` 进行高级 CSS 处理。
+- **类型安全：** 使用 TypeScript (v5.9.x) 增强代码可靠性，并在开发过程中提供强大的类型检查。
+- **快速开发工作流：** 使用 Rsbuild（`@rsbuild/core` 和 `@rsbuild/plugin-react`）实现优化构建和高效开发服务器性能。
+- **图标支持：** 包含 `@iconify/json` 和 `@iconify/tailwind`，提供可扩展和可定制的图标库。
+- **一致的设计语言：** 结合 `postcss-preset-mantine` 和 `tailwind-preset-mantine`，实现 Mantine 和 Tailwind 样式的无缝集成。
+- **代码质量：** 包含 ESLint 和 `@antfu/eslint-config`，用于代码检查和最佳实践执行。
+- **Git Hooks：** 集成 Husky 和 `lint-staged`，在提交时自动进行代码质量检查。
+- **自动化发布：** 利用 GitHub Actions 进行自动化发布和变更日志生成。
 
 ## 💻 技术栈
 
-- **框架/库:** React (v19)
-- **UI工具包/样式:** Mantine UI（`@mantine/core`）、Tailwind CSS（`tailwindcss`）
-- **构建工具:** Rsbuild（`@rsbuild/core`）
-- **语言:** TypeScript (v5.9.x)
-- **CSS处理:** PostCSS及插件如`autoprefixer`和`postcss-simple-vars`
-- **代码检查:** ESLint配合`@antfu/eslint-config`
-- **状态管理:** Zustand
-- **路由:** Tanstack Router
-- **数据获取:** Tanstack Query (React Query)
-- **表格组件:** Tanstack Table
+- **框架/库：** React (v19)
+- **UI 工具包/样式：** Mantine UI（`@mantine/core`）、Tailwind CSS（`tailwindcss`）
+- **构建工具：** Rsbuild（`@rsbuild/core`）
+- **语言：** TypeScript (v5.9.x)
+- **CSS 处理：** PostCSS 及插件如 `autoprefixer` 和 `postcss-simple-vars`
+- **代码检查：** ESLint 和 `@antfu/eslint-config`
+- **状态管理：** Zustand
+- **路由：** Tanstack Router
+- **数据获取：** Tanstack Query (React Query)
+- **表格组件：** Tanstack Table
 
-完整依赖列表参见[package.json](../package.json)。
+查看 [package.json](../package.json) 获取完整的依赖列表。
 
-## 🚀 开始使用
+## 🚀 快速开始
 
-按照以下说明在本地运行项目。
+### 前置条件
 
-### 前提条件
+- Node.js（推荐 >= 18.x）
+- 包管理器（npm、yarn 或 pnpm）
 
-确保已安装以下软件：
+### 安装
 
-- Node.js (推荐 >= 18.x 版本)
-- 包管理器 (npm, yarn 或 pnpm)
+1. 使用模板创建新项目：
 
-```bash
-node -v
-npm -v
+   ```bash
+   pnpm create trapar-waves
+   ```
+
+2. 导航到项目目录并安装依赖：
+
+   ```bash
+   pnpm install
+   ```
+
+3. 启动开发服务器：
+
+   ```bash
+   pnpm dev
+   ```
+
+## 📁 项目结构
+
+```
+├── public/            # 静态资源
+├── src/               # 源代码
+│   ├── app.tsx        # 主应用组件
+│   ├── globals.css    # 全局样式和 Tailwind 导入
+│   ├── index.tsx      # 入口点
+│   ├── iconify.ts     # Iconify 配置
+│   └── env.d.ts       # 环境类型声明
+├── rsbuild.config.ts  # Rsbuild 配置
+├── tsconfig.json      # TypeScript 配置
+├── eslint.config.js   # ESLint 配置
+└── package.json       # 项目依赖和脚本
 ```
 
-### 安装步骤
+## 🤝 贡献
 
-运行脚本
+欢迎贡献，非常感谢！请按照以下步骤贡献：
 
-```bash
-pnpm create trapar-waves
-```
-
-安装依赖
-
-```bash
-npm install
-yarn install
-pnpm install
-```
-
-### 开发
-
-启动开发服务器:
-
-```bash
-npm run dev
-yarn dev
-pnpm dev
-```
-
-### 构建
-
-为生产环境构建项目:
-
-```bash
-npm run build
-yarn build
-pnpm build
-```
-
-### 预览
-
-在本地预览生产构建:
-
-```bash
-npm run preview
-yarn preview
-pnpm preview
-```
-
-### 代码检查
-
-对代码库进行检查:
-
-```bash
-npm run lint
-yarn lint
-pnpm lint
-```
-
-## 🤝 贡献指南
-
-欢迎贡献，非常感谢您的支持！请按照以下步骤进行贡献：
-
-1. Fork 本仓库
-2. 创建功能分支（`git checkout -b feature/amazing-feature`）
-3. 提交您的更改（`git commit -m 'Add some amazing feature'`）
+1. Fork 仓库
+2. 创建特性分支（`git checkout -b feature/amazing-feature`）
+3. 提交更改（`git commit -m 'Add some amazing feature'`）
 4. 推送到分支（`git push origin feature/amazing-feature`）
-5. 打开Pull Request
-
-请确保您的代码符合项目的检查规则，并在提交PR之前通过所有检查。
+5. 创建 Pull Request
 
 ## 📄 许可证
 
-该项目采用MIT许可证 - 详情请见[LICENSE](../LICENSE)文件。
+MIT License © 2025 Trapar Waves
 
-## 👤 Author
+## 👤 作者
 
-- **Rikka:** (admin@rikka.cc)
-- **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+- **Rikka：** [admin@rikka.cc](mailto:admin@rikka.cc)
+- **GitHub 主页：** [Muromi-Rikka](https://github.com/Muromi-Rikka)
 
-## 🔗 Links
+## 🔗 链接
 
-- **仓库:** [https://github.com/Trapar-waves/react-mantine-tailwind](https://github.com/Trapar-waves/react-mantine-tailwind)
-- **主页:** [https://github.com/Trapar-waves/react-mantine-tailwind](https://github.com/Trapar-waves/react-mantine-tailwind)
-- **问题:** [https://github.com/Trapar-waves/react-mantine-tailwind/issues](https://github.com/Trapar-waves/react-mantine-tailwind/issues)
+- **仓库：** [https://github.com/Trapar-waves/react-mantine-tailwind](https://github.com/Trapar-waves/react-mantine-tailwind)
+- **Issues：** [https://github.com/Trapar-waves/react-mantine-tailwind/issues](https://github.com/Trapar-waves/react-mantine-tailwind/issues)

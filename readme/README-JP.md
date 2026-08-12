@@ -11,132 +11,100 @@
 
 [English](../README.md) | [中文](./README-CN.md) | [Русский язык](./README-RU.md)
 
-> React、Mantine UI、Tailwind CSSを組み合わせた現代的なWebアプリケーション構築用プロジェクトです。
+> React、Mantine UI、Tailwind CSS を統合したモダンな Web 開発テンプレート。Rsbuild、TypeScript、ESLint（Antfu 設定）、Iconify サポート付き。
 
 ## ✨ 特徴
 
-- **モダンUIフレームワーク:** コンポーネント駆動の宣言型インターフェースのためにReact (v19)を使用して構築されています。
-- **充実したコンポーネントライブラリ:** Mantine UI（`@mantine/core`と`@mantine/hooks`）を統合し、事前構築されたUI要素とユーティリティフックを提供します。
-- **ユーティリティファーストスタイリング:** Tailwind CSSと`@tailwindcss/postcss`を採用し、一貫性を維持しながら柔軟で迅速なスタイリングを可能にします。
-- **PostCSS統合:** `postcss-import`、`autoprefixer`、`postcss-simple-vars`などのPostCSSプラグインを活用し、高度なCSS処理を実現します。
-- **型安全性:** TypeScript (v5.9.x)を使用してコードの信頼性を向上させ、開発中の堅牢な型チェックを提供します。
-- **高速開発ワークフロー:** Rsbuild（`@rsbuild/core`と`@rsbuild/plugin-react`）を使用して最適化されたビルドと効率的な開発サーバーパフォーマンスを実現します。
-- **アイコンサポート:** `@iconify/json`と`@iconify/tailwind`を含み、スケーラブルでカスタマイズ可能なアイコンを提供します。
-- **一貫したデザイン言語:** `postcss-preset-mantine`と`tailwind-preset-mantine`を組み合わせて、MantineとTailwindスタイルのシームレスな統合を実現します。
-- **コード品質への注力:** ESLintと`@antfu/eslint-config`を含み、コードベースのリンティングとベストプラクティスの適用を実現します。
-- **Git Hooks:** Huskyと`lint-staged`を統合し、コミット時の自動コード品質チェックを実現します。
-- **自動リリース:** GitHub Actionsを使用して自動リリースと変更履歴の生成を実現します。
+- **モダン UI フレームワーク：** React (v19) を使用したコンポーネント駆動の宣言的インターフェース。
+- **充実したコンポーネントライブラリ：** Mantine UI（`@mantine/core` と `@mantine/hooks`）を統合し、事前構築された UI 要素とユーティリティフックを提供。
+- **ユーティリティファーストのスタイリング：** Tailwind CSS と `@tailwindcss/postcss` を採用し、柔軟で迅速なスタイリングを実現しながら一貫性を維持。
+- **PostCSS 統合：** `postcss-import`、`autoprefixer`、`postcss-simple-vars` などの PostCSS プラグインを活用し、高度な CSS 処理を実現。
+- **型安全性：** TypeScript (v5.9.x) を活用し、コードの信頼性を向上させ、開発中に堅牢な型チェックを提供。
+- **高速開発ワークフロー：** Rsbuild（`@rsbuild/core` と `@rsbuild/plugin-react`）を使用し、最適化されたビルドと効率的な開発サーバー性能を実現。
+- **アイコンサポート：** `@iconify/json` と `@iconify/tailwind` を含み、スケーラブルでカスタマイズ可能なアイコンを提供。
+- **一貫したデザイン言語：** `postcss-preset-mantine` と `tailwind-preset-mantine` を組み合わせ、Mantine と Tailwind スタイルのシームレスな統合を実現。
+- **コード品質への注力：** ESLint と `@antfu/eslint-config` を含み、コードベースのリンティングとベストプラクティスの適用を実現。
+- **Git Hooks：** Husky と `lint-staged` を統合し、コミット時の自動コード品質チェックを実行。
+- **自動リリース：** GitHub Actions を使用して自動リリースと変更履歴の生成を実現。
 
 ## 💻 技術スタック
 
-- **フレームワーク/ライブラリ:** React (v19)
-- **UIツールキット/スタイリング:** Mantine UI（`@mantine/core`）、Tailwind CSS（`tailwindcss`）
-- **ビルドツール:** Rsbuild（`@rsbuild/core`）
-- **言語:** TypeScript (v5.9.x)
-- **CSS処理:** `autoprefixer`や`postcss-simple-vars`などのプラグインを備えたPostCSS
-- **リンティング:** `@antfu/eslint-config`を備えたESLint
-- **状態管理:** Zustand
-- **ルーティング:** Tanstack Router
-- **データフェッチング:** Tanstack Query (React Query)
-- **テーブルコンポーネント:** Tanstack Table
+- **フレームワーク/ライブラリ：** React (v19)
+- **UI ツールキット/スタイリング：** Mantine UI（`@mantine/core`）、Tailwind CSS（`tailwindcss`）
+- **ビルドツール：** Rsbuild（`@rsbuild/core`）
+- **言語：** TypeScript (v5.9.x)
+- **CSS 処理：** PostCSS と `autoprefixer`、`postcss-simple-vars` などのプラグイン
+- **リンティング：** ESLint と `@antfu/eslint-config`
+- **状態管理：** Zustand
+- **ルーティング：** Tanstack Router
+- **データフェッチング：** Tanstack Query (React Query)
+- **テーブルコンポーネント：** Tanstack Table
 
-依存関係の完全なリストについては[package.json](../package.json)を参照してください。
+依存関係の完全なリストは [package.json](../package.json) を参照してください。
 
-## 🚀 始め方
-
-以下の手順に従ってプロジェクトをローカルで実行してください。
+## 🚀 はじめに
 
 ### 前提条件
 
-以下がインストールされていることを確認してください：
-
-- Node.js (推奨バージョン >= 18.x)
-- パッケージマネージャー (npm, yarn または pnpm)
-
-```bash
-node -v
-npm -v
-```
+- Node.js（>= 18.x 推奨）
+- パッケージマネージャー（npm、yarn、または pnpm）
 
 ### インストール
 
-スクリプトの実行
+1. テンプレートを使用して新しいプロジェクトを作成：
 
-```bash
-pnpm create trapar-waves
+   ```bash
+   pnpm create trapar-waves
+   ```
+
+2. プロジェクトディレクトリに移動し、依存関係をインストール：
+
+   ```bash
+   pnpm install
+   ```
+
+3. 開発サーバーを起動：
+
+   ```bash
+   pnpm dev
+   ```
+
+## 📁 プロジェクト構造
+
+```
+├── public/            # 静的アセット
+├── src/               # ソースコード
+│   ├── app.tsx        # メインアプリケーションコンポーネント
+│   ├── globals.css    # グローバルスタイルと Tailwind インポート
+│   ├── index.tsx      # エントリーポイント
+│   ├── iconify.ts     # Iconify 設定
+│   └── env.d.ts       # 環境型宣言
+├── rsbuild.config.ts  # Rsbuild 設定
+├── tsconfig.json      # TypeScript 設定
+├── eslint.config.js   # ESLint 設定
+└── package.json       # プロジェクトの依存関係とスクリプト
 ```
 
-依存関係のインストール
+## 🤝 コントリビュート
 
-```bash
-npm install
-yarn install
-pnpm install
-```
+コントリビュートを歓迎します！以下の手順に従ってコントリビュートしてください：
 
-### 開発
-
-開発サーバーの起動:
-
-```bash
-npm run dev
-yarn dev
-pnpm dev
-```
-
-### ビルド
-
-本番用にプロジェクトをビルド:
-
-```bash
-npm run build
-yarn build
-pnpm build
-```
-
-### プレビュー
-
-ローカルで本番ビルドをプレビュー:
-
-```bash
-npm run preview
-yarn preview
-pnpm preview
-```
-
-### リンティング
-
-コードベースのリント:
-
-```bash
-npm run lint
-yarn lint
-pnpm lint
-```
-
-## 🤝 コントリビューション
-
-貢献は歓迎され、非常に高く評価されています！貢献するには以下の手順に従ってください：
-
-1. リポジトリをフォークする
-2. 機能ブランチを作成する（`git checkout -b feature/amazing-feature`）
-3. 変更をコミットする（`git commit -m 'Add some amazing feature'`）
-4. ブランチにプッシュする（`git push origin feature/amazing-feature`）
-5. Pull Requestを開く
-
-プルリクエストを提出する前に、コードがプロジェクトのリントルールに準拠し、すべてのチェックに合格することを確認してください。
+1. リポジトリをフォーク
+2. 機能ブランチを作成（`git checkout -b feature/amazing-feature`）
+3. 変更をコミット（`git commit -m 'Add some amazing feature'`）
+4. ブランチにプッシュ（`git push origin feature/amazing-feature`）
+5. Pull Request を作成
 
 ## 📄 ライセンス
 
-このプロジェクトはMITライセンスの下でライセンスされています。詳細については[LICENSE](../LICENSE)ファイルを参照してください。
+MIT License © 2025 Trapar Waves
 
-## 👤 Author
+## 👤 作者
 
-- **Rikka:** (admin@rikka.cc)
-- **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+- **Rikka：** [admin@rikka.cc](mailto:admin@rikka.cc)
+- **GitHub プロフィール：** [Muromi-Rikka](https://github.com/Muromi-Rikka)
 
-## 🔗 Links
+## 🔗 リンク
 
-- **リポジトリ:** [https://github.com/Trapar-waves/react-mantine-tailwind](https://github.com/Trapar-waves/react-mantine-tailwind)
-- **ホームページ:** [https://github.com/Trapar-waves/react-mantine-tailwind](https://github.com/Trapar-waves/react-mantine-tailwind)
-- **イシュー:** [https://github.com/Trapar-waves/react-mantine-tailwind/issues](https://github.com/Trapar-waves/react-mantine-tailwind/issues)
+- **リポジトリ：** [https://github.com/Trapar-waves/react-mantine-tailwind](https://github.com/Trapar-waves/react-mantine-tailwind)
+- **Issues：** [https://github.com/Trapar-waves/react-mantine-tailwind/issues](https://github.com/Trapar-waves/react-mantine-tailwind/issues)

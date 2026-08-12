@@ -11,7 +11,7 @@
 
 [中文](./readme/README-CN.md) | [日本語](./readme/README-JP.md) | [Русский язык](./readme/README-RU.md)
 
-> A React template integrating Mantine UI and Tailwind CSS for modern web development.
+> A React template integrating Mantine UI and Tailwind CSS for modern web development, with Rsbuild, TypeScript, ESLint (Antfu config), and Iconify support.
 
 ## ✨ Features
 
@@ -58,74 +58,45 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ## 🚀 Getting Started
 
-Follow these instructions to get the project running locally.
-
 ### Prerequisites
-
-Ensure you have the following installed:
 
 - Node.js (>= 18.x recommended)
 - Package manager (npm, yarn, or pnpm)
 
-```bash
-node -v
-npm -v
-```
-
 ### Installation
 
-Run script
+1. Create a new project using the template:
 
-```bash
-pnpm create trapar-waves
+   ```bash
+   pnpm create trapar-waves
+   ```
+
+2. Navigate to your project directory and install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   pnpm dev
+   ```
+
+## 📁 Project Structure
+
 ```
-
-Install dependencies
-
-```bash
-npm install
-yarn install
-pnpm install
-```
-
-### Development
-
-Start the development server:
-
-```bash
-npm run dev
-yarn dev
-pnpm dev
-```
-
-### Build
-
-Build the project for production:
-
-```bash
-npm run build
-yarn build
-pnpm build
-```
-
-### Preview
-
-Preview the production build locally:
-
-```bash
-npm run preview
-yarn preview
-pnpm preview
-```
-
-### Linting
-
-Lint the codebase:
-
-```bash
-npm run lint
-yarn lint
-pnpm lint
+├── public/            # Static assets
+├── src/               # Source code
+│   ├── app.tsx        # Main application component
+│   ├── globals.css    # Global styles and Tailwind imports
+│   ├── index.tsx      # Entry point
+│   ├── iconify.ts     # Iconify configuration
+│   └── env.d.ts       # Environment type declarations
+├── rsbuild.config.ts  # Rsbuild configuration
+├── tsconfig.json      # TypeScript configuration
+├── eslint.config.js   # ESLint configuration
+└── package.json       # Project dependencies and scripts
 ```
 
 ## 🤝 Contributing
@@ -138,19 +109,16 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-Please ensure your code adheres to the project's linting rules and passes all checks before submitting a PR.
-
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+MIT License © 2025 Trapar Waves
 
 ## 👤 Author
 
-- **Rikka:** (admin@rikka.cc)
+- **Rikka:** [admin@rikka.cc](mailto:admin@rikka.cc)
 - **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
 
 ## 🔗 Links
 
 - **Repository:** [https://github.com/Trapar-waves/react-mantine-tailwind](https://github.com/Trapar-waves/react-mantine-tailwind)
-- **Homepage:** [https://github.com/Trapar-waves/react-mantine-tailwind](https://github.com/Trapar-waves/react-mantine-tailwind)
 - **Issues:** [https://github.com/Trapar-waves/react-mantine-tailwind/issues](https://github.com/Trapar-waves/react-mantine-tailwind/issues)
