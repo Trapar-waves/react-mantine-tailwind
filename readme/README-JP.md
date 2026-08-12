@@ -13,6 +13,10 @@
 
 > React、Mantine UI、Tailwind CSS を統合したモダンな Web 開発テンプレート。Rsbuild、TypeScript、ESLint（Antfu 設定）、Iconify サポート付き。
 
+![react-mantine-tailwind hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ 特徴
 
 - **モダン UI フレームワーク：** React (v19) を使用したコンポーネント駆動の宣言的インターフェース。
@@ -26,6 +30,8 @@
 - **コード品質への注力：** ESLint と `@antfu/eslint-config` を含み、コードベースのリンティングとベストプラクティスの適用を実現。
 - **Git Hooks：** Husky と `lint-staged` を統合し、コミット時の自動コード品質チェックを実行。
 - **自動リリース：** GitHub Actions を使用して自動リリースと変更履歴の生成を実現。
+
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
 ## 💻 技術スタック
 
@@ -41,6 +47,8 @@
 - **テーブルコンポーネント：** Tanstack Table
 
 依存関係の完全なリストは [package.json](../package.json) を参照してください。
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 はじめに
 
@@ -69,6 +77,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 プロジェクト構造
 
 ```
@@ -85,6 +95,8 @@
 └── package.json       # プロジェクトの依存関係とスクリプト
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 コントリビュート
 
 コントリビュートを歓迎します！以下の手順に従ってコントリビュートしてください：
@@ -94,6 +106,8 @@
 3. 変更をコミット（`git commit -m 'Add some amazing feature'`）
 4. ブランチにプッシュ（`git push origin feature/amazing-feature`）
 5. Pull Request を作成
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 ライセンス
 

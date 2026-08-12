@@ -13,6 +13,10 @@
 
 > A React template integrating Mantine UI and Tailwind CSS for modern web development, with Rsbuild, TypeScript, ESLint (Antfu config), and Iconify support.
 
+![react-mantine-tailwind hero](assets/readme/hero.svg)
+
+![Features](assets/readme/headers/features.svg)
+
 ## ✨ Features
 
 - **Modern UI Framework:** Built using React (v19) for a component-driven, declarative interface.
@@ -27,19 +31,7 @@
 - **Git Hooks:** Integrated with Husky and `lint-staged` for automated code quality checks on commit.
 - **Automated Releases:** Utilizes GitHub Actions for automated releases and changelog generation.
 
-## GitHub Pages
-
-Pushing a version tag matching `v*` runs [`.github/workflows/pages.yml`](./.github/workflows/pages.yml), which builds with `BASE_PATH=/<repository-name>/`, copies `dist/index.html` to `dist/404.html` for SPA routing, and deploys to GitHub Pages. In the repository **Settings → Pages**, set **Source** to **GitHub Actions** once.
-
-```bash
-BASE_PATH=/react-mantine-tailwind/ pnpm run build && pnpm preview
-```
-
-PowerShell:
-
-```powershell
-$env:BASE_PATH="/react-mantine-tailwind/"; pnpm run build; pnpm preview
-```
+![Tech Stack](assets/readme/headers/tech-stack.svg)
 
 ## 💻 Tech Stack
 
@@ -55,6 +47,8 @@ $env:BASE_PATH="/react-mantine-tailwind/"; pnpm run build; pnpm preview
 - **Table Component:** Tanstack Table
 
 See the [package.json](./package.json) for a full list of dependencies.
+
+![Getting Started](assets/readme/headers/getting-started.svg)
 
 ## 🚀 Getting Started
 
@@ -83,6 +77,8 @@ See the [package.json](./package.json) for a full list of dependencies.
    pnpm dev
    ```
 
+![Project Structure](assets/readme/headers/project-structure.svg)
+
 ## 📁 Project Structure
 
 ```
@@ -99,6 +95,8 @@ See the [package.json](./package.json) for a full list of dependencies.
 └── package.json       # Project dependencies and scripts
 ```
 
+![Contributing](assets/readme/headers/contributing.svg)
+
 ## 🤝 Contributing
 
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
@@ -108,6 +106,8 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+![License](assets/readme/headers/license.svg)
 
 ## 📄 License
 

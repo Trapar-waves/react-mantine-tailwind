@@ -13,6 +13,10 @@
 
 > 一个集成 React、Mantine UI 和 Tailwind CSS 的现代 Web 开发模板，支持 Rsbuild、TypeScript、ESLint（Antfu 配置）和 Iconify。
 
+![react-mantine-tailwind hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ 特性
 
 - **现代 UI 框架：** 使用 React (v19) 构建，支持组件驱动的声明式接口。
@@ -26,6 +30,8 @@
 - **代码质量：** 包含 ESLint 和 `@antfu/eslint-config`，用于代码检查和最佳实践执行。
 - **Git Hooks：** 集成 Husky 和 `lint-staged`，在提交时自动进行代码质量检查。
 - **自动化发布：** 利用 GitHub Actions 进行自动化发布和变更日志生成。
+
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
 ## 💻 技术栈
 
@@ -41,6 +47,8 @@
 - **表格组件：** Tanstack Table
 
 查看 [package.json](../package.json) 获取完整的依赖列表。
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 快速开始
 
@@ -69,6 +77,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 项目结构
 
 ```
@@ -85,6 +95,8 @@
 └── package.json       # 项目依赖和脚本
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 贡献
 
 欢迎贡献，非常感谢！请按照以下步骤贡献：
@@ -94,6 +106,8 @@
 3. 提交更改（`git commit -m 'Add some amazing feature'`）
 4. 推送到分支（`git push origin feature/amazing-feature`）
 5. 创建 Pull Request
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 许可证
 
