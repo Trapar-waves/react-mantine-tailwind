@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ Возможности
-
 - **Современный UI фреймворк:** Построен на React (v19) для компонентно-ориентированного декларативного интерфейса.
 - **Богатая библиотека компонентов:** Интегрируется с Mantine UI (`@mantine/core` и `@mantine/hooks`), предоставляя предварительно созданные элементы интерфейса и утилитарные хуки.
 - **Утилитарный подход к стилям:** Использует Tailwind CSS вместе с `@tailwindcss/postcss`, обеспечивая гибкую и быструю стилизацию с сохранением согласованности.
@@ -32,8 +30,6 @@
 - **Автоматические релизы:** Использует GitHub Actions для автоматических релизов и генерации журналов изменений.
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 Технический стек
 
 - **Фреймворк/библиотека:** React (v19)
 - **UI тулкит/стилизация:** Mantine UI (`@mantine/core`), Tailwind CSS (`tailwindcss`)
@@ -49,8 +45,6 @@
 Полный список зависимостей смотрите в [package.json](../package.json).
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 Начало работы
 
 ### Предварительные требования
 
@@ -79,8 +73,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 Структура проекта
-
 ```
 ├── public/            # Статические ресурсы
 ├── src/               # Исходный код
@@ -97,8 +89,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 Участие в разработке
-
 Участие приветствуется и высоко ценится! Пожалуйста, следуйте этим шагам для вклада:
 
 1. Fork репозиторий
@@ -108,8 +98,6 @@
 5. Откройте Pull Request
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 Лицензия
 
 MIT License © 2025 Trapar Waves
 

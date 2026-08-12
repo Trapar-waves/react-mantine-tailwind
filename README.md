@@ -17,8 +17,6 @@
 
 ![Features](assets/readme/headers/features.svg)
 
-## ✨ Features
-
 - **Modern UI Framework:** Built using React (v19) for a component-driven, declarative interface.
 - **Rich Component Library:** Integrates with Mantine UI (`@mantine/core` and `@mantine/hooks`) providing pre-built UI elements and utility hooks.
 - **Utility-First Styling:** Employs Tailwind CSS along with `@tailwindcss/postcss`, enabling flexible and rapid styling while maintaining consistency.
@@ -32,8 +30,6 @@
 - **Automated Releases:** Utilizes GitHub Actions for automated releases and changelog generation.
 
 ![Tech Stack](assets/readme/headers/tech-stack.svg)
-
-## 💻 Tech Stack
 
 - **Framework/Library:** React (v19)
 - **UI Toolkit/Styling:** Mantine UI (`@mantine/core`), Tailwind CSS (`tailwindcss`)
@@ -49,8 +45,6 @@
 See the [package.json](./package.json) for a full list of dependencies.
 
 ![Getting Started](assets/readme/headers/getting-started.svg)
-
-## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -79,8 +73,6 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ![Project Structure](assets/readme/headers/project-structure.svg)
 
-## 📁 Project Structure
-
 ```
 ├── public/            # Static assets
 ├── src/               # Source code
@@ -97,8 +89,6 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ![Contributing](assets/readme/headers/contributing.svg)
 
-## 🤝 Contributing
-
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
 
 1. Fork the repository
@@ -108,8 +98,6 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 5. Open a Pull Request
 
 ![License](assets/readme/headers/license.svg)
-
-## 📄 License
 
 MIT License © 2025 Trapar Waves
 

@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特徴
-
 - **モダン UI フレームワーク：** React (v19) を使用したコンポーネント駆動の宣言的インターフェース。
 - **充実したコンポーネントライブラリ：** Mantine UI（`@mantine/core` と `@mantine/hooks`）を統合し、事前構築された UI 要素とユーティリティフックを提供。
 - **ユーティリティファーストのスタイリング：** Tailwind CSS と `@tailwindcss/postcss` を採用し、柔軟で迅速なスタイリングを実現しながら一貫性を維持。
@@ -32,8 +30,6 @@
 - **自動リリース：** GitHub Actions を使用して自動リリースと変更履歴の生成を実現。
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 技術スタック
 
 - **フレームワーク/ライブラリ：** React (v19)
 - **UI ツールキット/スタイリング：** Mantine UI（`@mantine/core`）、Tailwind CSS（`tailwindcss`）
@@ -49,8 +45,6 @@
 依存関係の完全なリストは [package.json](../package.json) を参照してください。
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 はじめに
 
 ### 前提条件
 
@@ -79,8 +73,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 プロジェクト構造
-
 ```
 ├── public/            # 静的アセット
 ├── src/               # ソースコード
@@ -97,8 +89,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 コントリビュート
-
 コントリビュートを歓迎します！以下の手順に従ってコントリビュートしてください：
 
 1. リポジトリをフォーク
@@ -108,8 +98,6 @@
 5. Pull Request を作成
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 ライセンス
 
 MIT License © 2025 Trapar Waves
 

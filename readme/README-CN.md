@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特性
-
 - **现代 UI 框架：** 使用 React (v19) 构建，支持组件驱动的声明式接口。
 - **丰富组件库：** 集成 Mantine UI（`@mantine/core` 和 `@mantine/hooks`），提供预构建 UI 元素和实用钩子。
 - **实用优先样式：** 采用 Tailwind CSS 配合 `@tailwindcss/postcss`，实现灵活快速的样式开发，同时保持一致性。
@@ -32,8 +30,6 @@
 - **自动化发布：** 利用 GitHub Actions 进行自动化发布和变更日志生成。
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 技术栈
 
 - **框架/库：** React (v19)
 - **UI 工具包/样式：** Mantine UI（`@mantine/core`）、Tailwind CSS（`tailwindcss`）
@@ -49,8 +45,6 @@
 查看 [package.json](../package.json) 获取完整的依赖列表。
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 快速开始
 
 ### 前置条件
 
@@ -79,8 +73,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 项目结构
-
 ```
 ├── public/            # 静态资源
 ├── src/               # 源代码
@@ -97,8 +89,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 贡献
-
 欢迎贡献，非常感谢！请按照以下步骤贡献：
 
 1. Fork 仓库
@@ -108,8 +98,6 @@
 5. 创建 Pull Request
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 许可证
 
 MIT License © 2025 Trapar Waves
 
