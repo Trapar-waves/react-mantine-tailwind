@@ -79,8 +79,8 @@ importers:
         specifier: ^17.3.0
         version: 17.3.0
       postcss-import:
-        specifier: ^16.1.1
-        version: 16.1.1(postcss@8.5.25)
+        specifier: ^16.2.0
+        version: 16.2.0(postcss@8.5.25)
       postcss-preset-mantine:
         specifier: ^1.18.0
         version: 1.18.0(postcss@8.5.25)
@@ -2805,8 +2805,8 @@ packages:
   pnpm-workspace-yaml@1.7.0:
     resolution: {integrity: sha512-cgjaozHkjWL4H8oKZydEWE4mg31XydK3/1cLKjHvwnFAXutp45yAlMKljpOdZEq4TtLuzYAMvy9j05wRm3aoPw==}
 
-  postcss-import@16.1.1:
-    resolution: {integrity: sha512-2xVS1NCZAfjtVdvXiyegxzJ447GyqCeEI5V7ApgQVOWnros1p5lGNovJNapwPpMombyFBfqDwt7AD3n2l0KOfQ==}
+  postcss-import@16.2.0:
+    resolution: {integrity: sha512-0mQUGlSp87Zl70K58RNwQAN1WS9plFE6KWGui9nyK6ninduMyjW/Khaoy/BpBoFTBh7ndAvAKrSKVbwy6vd/BA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       postcss: ^8.0.0
@@ -6230,7 +6230,7 @@ snapshots:
     dependencies:
       yaml: 2.9.0
 
-  postcss-import@16.1.1(postcss@8.5.25):
+  postcss-import@16.2.0(postcss@8.5.25):
     dependencies:
       postcss: 8.5.25
       postcss-value-parser: 4.2.0
