@@ -1,8 +1,8 @@
-import process from "node:process";
 import { defineConfig } from "@rsbuild/core";
 import { pluginReact } from "@rsbuild/plugin-react";
 import { RsdoctorRspackPlugin } from "@rsdoctor/rspack-plugin";
 import tailwind from "@tailwindcss/postcss";
+import process from "node:process";
 import postcssImport from "postcss-import";
 import postcssPresetMantine from "postcss-preset-mantine";
 import postcssSimpleVars from "postcss-simple-vars";
@@ -18,21 +18,22 @@ function normalizeBasePath(): string {
 }
 
 const basePath = normalizeBasePath();
-const useSubpath = basePath !== "/";
+const isUseSubpath = basePath !== "/";
 
-const enableRsdoctor = Boolean(process.env.RSDOCTOR);
-const enableTurboConsole = process.env.NODE_ENV === "development";
+const isEnableRsdoctor = Boolean(process.env.RSDOCTOR);
+const isEnableTurboConsole = process.env.NODE_ENV === "development";
 
 export default defineConfig({
-  ...(useSubpath
+  ...(isUseSubpath
     ? {
-        server: { base: basePath, port: 5000 },
         output: { assetPrefix: basePath },
+        server: { base: basePath, port: 5000 },
       }
     : { server: { port: 5000 } }),
   performance: {
-    ...(enableRsdoctor ? { buildCache: false } : {}),
+    ...(isEnableRsdoctor && { buildCache: false }),
   },
+  plugins: [pluginReact()],
   tools: {
     postcss: {
       postcssOptions: {
@@ -41,11 +42,11 @@ export default defineConfig({
           postcssPresetMantine(),
           postcssSimpleVars({
             variables: {
-              "mantine-breakpoint-xs": "36em",
-              "mantine-breakpoint-sm": "48em",
-              "mantine-breakpoint-md": "62em",
               "mantine-breakpoint-lg": "75em",
+              "mantine-breakpoint-md": "62em",
+              "mantine-breakpoint-sm": "48em",
               "mantine-breakpoint-xl": "88em",
+              "mantine-breakpoint-xs": "36em",
             },
           }),
           tailwind,
@@ -54,8 +55,8 @@ export default defineConfig({
     },
     rspack: {
       plugins: [
-        ...(enableTurboConsole ? [TurboConsole()] : []),
-        ...(enableRsdoctor
+        ...(isEnableTurboConsole ? [TurboConsole()] : []),
+        ...(isEnableRsdoctor
           ? [
               new RsdoctorRspackPlugin({
                 output: {
@@ -70,5 +71,4 @@ export default defineConfig({
       ],
     },
   },
-  plugins: [pluginReact()],
 });

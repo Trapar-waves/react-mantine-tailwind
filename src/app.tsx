@@ -19,66 +19,68 @@ import "./globals.css";
 const HOMEPAGE = "https://github.com/Trapar-waves/react-mantine-tailwind";
 const LOGOS_SET_URL = "https://icon-sets.iconify.design/logos/";
 
-/** 与 README 技术栈及依赖一致；图标来自 Iconify `logos` 集合（Gil Barbara / CC0）。 */
+/**
+ * 与 README 技术栈及依赖一致；图标来自 Iconify `logos` 集合（Gil Barbara / CC0）。
+*/
 const techStack: Array<{
-  id: string;
-  label: string;
   hint: string;
   iconClass: string;
+  id: string;
+  label: string;
 }> = [
   {
-    id: "react-mantine",
-    label: "React 19 · Mantine 9",
     hint: "@mantine/core · @mantine/hooks，组件驱动界面",
     iconClass: "icon-[logos--react]",
+    id: "react-mantine",
+    label: "React 19 · Mantine 9",
   },
   {
-    id: "ts",
-    label: "TypeScript",
     hint: "类型安全与可维护性",
     iconClass: "icon-[logos--typescript-icon]",
+    id: "ts",
+    label: "TypeScript",
   },
   {
-    id: "tailwind",
-    label: "Tailwind CSS 4",
     hint: "@tailwindcss/postcss",
     iconClass: "icon-[logos--tailwindcss-icon]",
+    id: "tailwind",
+    label: "Tailwind CSS 4",
   },
   {
-    id: "rsbuild",
-    label: "Rsbuild",
     hint: "@rsbuild/core · @rsbuild/plugin-react",
     iconClass: "icon-[material-icon-theme--rstack]",
+    id: "rsbuild",
+    label: "Rsbuild",
   },
   {
-    id: "postcss",
-    label: "PostCSS",
     hint: "import · preset-mantine · simple-vars · autoprefixer",
     iconClass: "icon-[logos--postcss]",
+    id: "postcss",
+    label: "PostCSS",
   },
   {
+    hint: "@renton/eslint-config-react",
+    iconClass: "icon-[logos--eslint]",
     id: "eslint",
     label: "ESLint",
-    hint: "@antfu/eslint-config",
-    iconClass: "icon-[logos--eslint]",
   },
   {
-    id: "pnpm",
-    label: "pnpm",
     hint: "包管理与 CI 缓存",
     iconClass: "icon-[logos--pnpm]",
+    id: "pnpm",
+    label: "pnpm",
   },
   {
-    id: "node",
-    label: "Node.js",
     hint: "本地开发 ≥18 推荐",
     iconClass: "icon-[logos--nodejs-icon]",
+    id: "node",
+    label: "Node.js",
   },
   {
-    id: "github",
-    label: "GitHub Actions",
     hint: "Release 与 Pages 流水线",
     iconClass: "icon-[logos--github-icon]",
+    id: "github",
+    label: "GitHub Actions",
   },
 ];
 
@@ -91,34 +93,34 @@ const readmeFeatures: string[] = [
   "Rsbuild 提供极速开发与优化产物。",
   "@iconify/json + @iconify/tailwind（含 logos 等集合）统一矢量图标。",
   "tailwind-preset-mantine 与 postcss-preset-mantine 对齐设计变量。",
-  "@antfu/eslint-config 保障代码风格与质量。",
+  "@renton/eslint-config-react 保障代码风格与质量。",
   "Husky + lint-staged 提交前自动检查。",
   "GitHub Actions 发版与变更日志。",
 ];
 
 const readmeTechNote = "README 中还列举了可搭配的 Zustand、TanStack Router / Query / Table 等方向；当前模板仓库以 Mantine + Tailwind + Rsbuild 为核心依赖，可按业务增量接入。";
 
-function App() {
+export default function App() {
   return (
-    <div style={{ minHeight: "100dvh", background: "linear-gradient(180deg, #f4f6fb 0%, #eef2f9 100%)" }}>
+    <div style={{ background: "linear-gradient(180deg, #f4f6fb 0%, #eef2f9 100%)", minHeight: "100dvh" }}>
       <a
+        className="skip-focus"
         href="#main"
         style={{
-          position: "absolute",
-          left: 12,
-          top: 12,
-          padding: "8px 14px",
           background: "#1c2b45",
-          color: "#fff",
           borderRadius: 8,
-          fontWeight: 600,
+          color: "#fff",
           fontSize: 14,
+          fontWeight: 600,
+          left: 12,
+          padding: "8px 14px",
+          position: "absolute",
           textDecoration: "none",
+          top: 12,
           transform: "translateY(-200%)",
           transition: "transform 180ms ease-out",
           zIndex: 50,
         }}
-        className="skip-focus"
       >
         跳到主要内容
       </a>
@@ -146,47 +148,47 @@ function App() {
         `}
       </style>
 
-      <Container component="header" pt="xl" pb="md" size="lg">
+      <Container component="header" pb="md" pt="xl" size="lg">
         <Group gap="sm" wrap="wrap">
-          <Badge variant="light" color="indigo" size="lg" radius="sm">
+          <Badge color="indigo" radius="sm" size="lg" variant="light">
             Trapar-waves
           </Badge>
-          <Badge variant="outline" color="gray" size="lg" radius="sm">
+          <Badge color="gray" radius="sm" size="lg" variant="outline">
             react-mantine-tailwind
           </Badge>
         </Group>
-        <Title order={1} mt="md" c="dark.8" fw={800} style={{ letterSpacing: "-0.03em", maxWidth: 720 }}>
+        <Title c="dark.8" fw={800} mt="md" order={1} style={{ letterSpacing: "-0.03em", maxWidth: 720 }}>
           Mantine 与 Tailwind 共存的模板展示
         </Title>
-        <Text mt="sm" c="dimmed" size="lg" maw={720} lh={1.65}>
+        <Text c="dimmed" lh={1.65} maw={720} mt="sm" size="lg">
           本页结合仓库 README 中的特性说明，概括开箱能力、样式链路与工程化工具；下方技术图标均使用 Iconify
           {" "}
-          <Anchor href={LOGOS_SET_URL} target="_blank" rel="noreferrer" size="lg" fw={600}>
+          <Anchor fw={600} href={LOGOS_SET_URL} rel="noreferrer" size="lg" target="_blank">
             logos
           </Anchor>
           {" "}
           集合（SVG Logos / CC0），便于在静态站点上展示品牌级矢量标识。
         </Text>
-        <Group mt="xl" gap="md" wrap="wrap">
+        <Group gap="md" mt="xl" wrap="wrap">
           <Button
             component="a"
             href={HOMEPAGE}
-            size="md"
             radius="md"
+            size="md"
             styles={{ root: { minHeight: 44 } }}
           >
             查看模板仓库
           </Button>
           <Button
+            color="indigo"
             component="a"
             href="https://mantine.dev/"
-            target="_blank"
-            rel="noreferrer"
-            variant="light"
-            color="indigo"
-            size="md"
             radius="md"
+            rel="noreferrer"
+            size="md"
             styles={{ root: { minHeight: 44 } }}
+            target="_blank"
+            variant="light"
           >
             Mantine 文档
           </Button>
@@ -194,17 +196,17 @@ function App() {
       </Container>
 
       <main id="main">
-        <Container size="lg" pb="xl">
-          <Title order={2} size="h3" mb="sm" c="dark.7">
+        <Container pb="xl" size="lg">
+          <Title c="dark.7" mb="sm" order={2} size="h3">
             技术栈一览
           </Title>
-          <Text size="sm" c="dimmed" mb="lg" maw={800}>
+          <Text c="dimmed" maw={800} mb="lg" size="sm">
             Rsbuild 基于 Rspack 与 webpack 生态，使用
             {" "}
             <Text
+              c="dark.6"
               component="span"
               fw={600}
-              c="dark.6"
             >
               material-icon-theme--rstack
             </Text>
@@ -212,18 +214,18 @@ function App() {
             作示意；其余图标与 README、package.json 中依赖一致。
           </Text>
 
-          <SimpleGrid cols={{ base: 1, sm: 2, md: 3 }} spacing="md">
+          <SimpleGrid cols={{ base: 1, md: 3, sm: 2 }} spacing="md">
             {techStack.map(item => (
-              <Card key={item.id} shadow="sm" padding="lg" radius="md" withBorder>
-                <Group align="flex-start" wrap="nowrap" gap="md">
-                  <div className="tech-icon-wrap" aria-hidden>
+              <Card key={item.id} padding="lg" radius="md" shadow="sm" withBorder>
+                <Group align="flex-start" gap="md" wrap="nowrap">
+                  <div aria-hidden className="tech-icon-wrap">
                     <span className={item.iconClass} />
                   </div>
                   <div>
-                    <Text fw={700} size="sm" c="dark.8">
+                    <Text c="dark.8" fw={700} size="sm">
                       {item.label}
                     </Text>
-                    <Text size="xs" c="dimmed" mt={6} lh={1.5}>
+                    <Text c="dimmed" lh={1.5} mt={6} size="xs">
                       {item.hint}
                     </Text>
                   </div>
@@ -232,24 +234,22 @@ function App() {
             ))}
           </SimpleGrid>
 
-          <Divider my="xl" label="README 特性摘要" labelPosition="left" />
+          <Divider label="README 特性摘要" labelPosition="left" my="xl" />
 
-          <Paper radius="md" p="lg" withBorder shadow="xs" bg="white">
+          <Paper bg="white" p="lg" radius="md" shadow="xs" withBorder>
             <Stack gap="md">
-              <Title order={3} size="h4" c="dark.8">
+              <Title c="dark.8" order={3} size="h4">
                 产品能力（与 README「Features」对齐）
               </Title>
               <List
-                spacing="xs"
-                size="sm"
                 c="dark.6"
                 icon={(
                   <ThemeIcon
+                    aria-hidden
                     color="indigo"
-                    variant="light"
                     radius="xl"
                     size={24}
-                    aria-hidden
+                    variant="light"
                   >
                     <span
                       className="icon-[logos--markdown]"
@@ -257,53 +257,55 @@ function App() {
                     />
                   </ThemeIcon>
                 )}
+                size="sm"
+                spacing="xs"
               >
                 {readmeFeatures.map(line => (
                   <List.Item key={line}>{line}</List.Item>
                 ))}
               </List>
-              <Text size="sm" c="dimmed" fs="italic">
+              <Text c="dimmed" fs="italic" size="sm">
                 {readmeTechNote}
               </Text>
             </Stack>
           </Paper>
 
-          <Paper radius="md" p="lg" withBorder shadow="xs" bg="white" mt="xl">
-            <Group justify="space-between" align="flex-start" wrap="wrap" gap="lg">
+          <Paper bg="white" mt="xl" p="lg" radius="md" shadow="xs" withBorder>
+            <Group align="flex-start" gap="lg" justify="space-between" wrap="wrap">
               <Stack gap="xs" maw={520}>
-                <Title order={3} size="h4" c="dark.8">
+                <Title c="dark.8" order={3} size="h4">
                   图标与可访问性
                 </Title>
-                <Text size="sm" c="dimmed" lh={1.65}>
+                <Text c="dimmed" lh={1.65} size="sm">
                   使用矢量图标替代 emoji 作为结构装饰；列表与卡片保持足够对比度与触控高度（主按钮 ≥44px）。若系统开启「减少动态效果」，过渡时间会被压缩。
                 </Text>
-                <Text size="xs" c="dimmed">
+                <Text c="dimmed" size="xs">
                   图标集说明见
                   {" "}
-                  <Anchor href={LOGOS_SET_URL} target="_blank" rel="noreferrer" size="xs">
+                  <Anchor href={LOGOS_SET_URL} rel="noreferrer" size="xs" target="_blank">
                     icon-sets.iconify.design/logos
                   </Anchor>
                   。
                 </Text>
               </Stack>
-              <Group gap="lg" wrap="wrap" justify="center">
-                <div className="tech-icon-wrap" title="React" aria-label="React">
+              <Group gap="lg" justify="center" wrap="wrap">
+                <div aria-label="React" className="tech-icon-wrap" title="React">
                   <span className="icon-[logos--react]" />
                 </div>
-                <div className="tech-icon-wrap" title="TypeScript" aria-label="TypeScript">
+                <div aria-label="TypeScript" className="tech-icon-wrap" title="TypeScript">
                   <span className="icon-[logos--typescript-icon]" />
                 </div>
-                <div className="tech-icon-wrap" title="Tailwind CSS" aria-label="Tailwind CSS">
+                <div aria-label="Tailwind CSS" className="tech-icon-wrap" title="Tailwind CSS">
                   <span className="icon-[logos--tailwindcss-icon]" />
                 </div>
-                <div className="tech-icon-wrap" title="ESLint" aria-label="ESLint">
+                <div aria-label="ESLint" className="tech-icon-wrap" title="ESLint">
                   <span className="icon-[logos--eslint]" />
                 </div>
               </Group>
             </Group>
           </Paper>
 
-          <Text size="xs" c="dimmed" mt="xl" ta="center">
+          <Text c="dimmed" mt="xl" size="xs" ta="center">
             MIT · Trapar-waves · 图标来自 Iconify logos（CC0），与 README 描述一致处已逐项列出。
           </Text>
         </Container>
@@ -311,5 +313,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

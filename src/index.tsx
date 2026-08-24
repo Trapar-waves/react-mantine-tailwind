@@ -3,14 +3,13 @@ import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./app";
 
-const rootEl = document.getElementById("root");
+const rootElement = document.querySelector("#root");
 
-if (rootEl) {
-  const root = ReactDOM.createRoot(rootEl);
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);
   const theme = mergeMantineTheme(
     DEFAULT_THEME,
-    createTheme({
-    }),
+    createTheme({}),
   );
   root.render(
     <StrictMode>
