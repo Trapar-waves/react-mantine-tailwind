@@ -1,14 +1,13 @@
 minimumReleaseAge: 0
-
+trustPolicy: off
 shellEmulator: true
 
-trustPolicy: off
+allowBuilds:
+  core-js: true
+  esbuild: true
 
 onlyBuiltDependencies:
   - "@tailwindcss/oxide"
   - core-js
   - esbuild
 
-allowBuilds:
-  core-js: true
-  esbuild: true
