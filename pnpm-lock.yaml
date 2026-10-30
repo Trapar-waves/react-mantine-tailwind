@@ -167,11 +167,11 @@ importers:
   .:
     dependencies:
       '@mantine/core':
-        specifier: ^9.7.3
-        version: 9.7.3(@mantine/hooks@9.7.3(react@19.3.1))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        specifier: ^9.7.4
+        version: 9.7.4(@mantine/hooks@9.7.4(react@19.3.1))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@mantine/hooks':
-        specifier: ^9.7.3
-        version: 9.7.3(react@19.3.1)
+        specifier: ^9.7.4
+        version: 9.7.4(react@19.3.1)
       react:
         specifier: ^19.3.1
         version: 19.3.1
@@ -235,7 +235,7 @@ importers:
         version: 7.0.1(postcss@8.5.31)
       tailwind-preset-mantine:
         specifier: 4.1.0
-        version: 4.1.0(@mantine/core@9.7.3(@mantine/hooks@9.7.3(react@19.3.1))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(tailwindcss@4.3.3)
+        version: 4.1.0(@mantine/core@9.7.4(@mantine/hooks@9.7.4(react@19.3.1))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(tailwindcss@4.3.3)
       tailwindcss:
         specifier: ^4.3.3
         version: 4.3.3
@@ -764,15 +764,15 @@ packages:
   '@keyv/serialize@1.1.1':
     resolution: {integrity: sha512-dXn3FZhPv0US+7dtJsIi2R+c7qWYiReoEh5zUntWCf4oSpMNib8FDhSoed6m3QyZdx5hK7iLFkYk3rNxwt8vTA==}
 
-  '@mantine/core@9.7.3':
-    resolution: {integrity: sha512-wYJ9Bd82a7HqwJ+hubFqUIocBGMuw6txzdPnnleHvv1h0NlnkESevK/WHTRh4FtOw33B5N2ADT34s3x1/8d8jg==}
+  '@mantine/core@9.7.4':
+    resolution: {integrity: sha512-c7aTGELNn74CxG9i5/tq9BHGh0lKdKmGGz+9iDF+gR7Ipt4U1TMM286lAmLpRrKL2bR+UEaN4blZ8UJmOuGJ4Q==}
     peerDependencies:
-      '@mantine/hooks': 9.7.3
+      '@mantine/hooks': 9.7.4
       react: ^19.2.0
       react-dom: ^19.2.0
 
-  '@mantine/hooks@9.7.3':
-    resolution: {integrity: sha512-GMHoMS1qul1dBLIHd/N9ef2Pr8UKYYHfuM+g2ej3gYqU0kH4sTiR9FNHksoTQi0PzATRoaNlUYjjMe9rbDRw5A==}
+  '@mantine/hooks@9.7.4':
+    resolution: {integrity: sha512-j6Xf9Sc1fhhGEKXg6BZA2geyP/Czqvo6Rsi0IduOCWgwl/MAAJbKRjRc7xe2+9vePLdfqLZqRIAOY5rta88uNA==}
     peerDependencies:
       react: ^19.2.0
 
@@ -3896,10 +3896,10 @@ snapshots:
 
   '@keyv/serialize@1.1.1': {}
 
-  '@mantine/core@9.7.3(@mantine/hooks@9.7.3(react@19.3.1))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
+  '@mantine/core@9.7.4(@mantine/hooks@9.7.4(react@19.3.1))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@floating-ui/react': 0.27.20(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
-      '@mantine/hooks': 9.7.3(react@19.3.1)
+      '@mantine/hooks': 9.7.4(react@19.3.1)
       clsx: 2.1.1
       react: 19.3.1
       react-dom: 19.3.1(react@19.3.1)
@@ -3909,7 +3909,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@mantine/hooks@9.7.3(react@19.3.1)':
+  '@mantine/hooks@9.7.4(react@19.3.1)':
     dependencies:
       react: 19.3.1
 
@@ -6427,9 +6427,9 @@ snapshots:
       local-pkg: 1.2.1
       tailwindcss: 4.3.3
 
-  tailwind-preset-mantine@4.1.0(@mantine/core@9.7.3(@mantine/hooks@9.7.3(react@19.3.1))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(tailwindcss@4.3.3):
+  tailwind-preset-mantine@4.1.0(@mantine/core@9.7.4(@mantine/hooks@9.7.4(react@19.3.1))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(tailwindcss@4.3.3):
     dependencies:
-      '@mantine/core': 9.7.3(@mantine/hooks@9.7.3(react@19.3.1))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+      '@mantine/core': 9.7.4(@mantine/hooks@9.7.4(react@19.3.1))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       es-module-lexer: 2.3.2
       get-tsconfig: 4.14.3
       postcss: 8.5.31
