@@ -175,7 +175,9 @@ export default function App() {
             href={HOMEPAGE}
             radius="md"
             size="md"
-            styles={{ root: { minHeight: 44 } }}
+            styles={{
+              root: { minHeight: 44 },
+            }}
           >
             查看模板仓库
           </Button>
@@ -186,7 +188,9 @@ export default function App() {
             radius="md"
             rel="noreferrer"
             size="md"
-            styles={{ root: { minHeight: 44 } }}
+            styles={{
+              root: { minHeight: 44 },
+            }}
             target="_blank"
             variant="light"
           >
