@@ -45,7 +45,7 @@
   "devDependencies": {
     "@iconify/json": "^2.2.552",
     "@iconify/tailwind": "^1.2.0",
-    "@renton/eslint-config-react": "^1.2.1",
+    "@renton/eslint-config-react": "^2.0.0",
     "@rsbuild/core": "^2.3.0",
     "@rsbuild/plugin-react": "^2.1.1",
     "@rsdoctor/rspack-plugin": "^1.6.5",
