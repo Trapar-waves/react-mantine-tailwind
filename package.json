@@ -57,7 +57,7 @@
     "cross-env": "^10.1.0",
     "eslint": "^10.15.0",
     "husky": "^9.1.7",
-    "lint-staged": "^17.6.1",
+    "lint-staged": "^17.6.2",
     "postcss-import": "^17.0.1",
     "postcss-preset-mantine": "^1.18.0",
     "postcss-simple-vars": "^7.0.1",
